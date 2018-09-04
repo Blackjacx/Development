@@ -9,6 +9,15 @@
 1. **Use UITextView for multiline text.** If you follow this rule you get text selection and all the features of an UITextView for free. Be sure you set isEditable and isScrollable to `false`.
 1. **Localized-strings used in a framework F must be defined there.** If don't folow this rule, **F** depends on the target/module where the string is defined and thus is not modular/independent anymore. If e.g. another target/module uses a class of **F** that contains a localized string which is outside of **F** the translation could not be found.
 1. **Name selectors with the pattern on<action_name>** Having a unified pattern for naming selectors helps to make code understandable faster. The on* pattern is also used in other programming languages like JavaScript.
+1. **No file header.** Remove comment header for newly created files since it will be always outdated (copyright, spelling errors in file names, etc.).
+
+## UIView • UIVIewController Architecture
+
+These guidelines are meant to be used without Interface Builder and teach you how to work with views programmatically.
+
+1. **Use special function to setup and add EACH subview.** Setup each subview of a view or view controller in its own function! The Name of the function has to be `setup<property_name>`. This function should set all parameters necessary for the first setup. This includes `contentHuggingPriority` and `contentCompressionResistencyPriority`. It is called only once in init (UIView) or viewDidLoad (UIViewController). Right before the function returns add the view to its superview. This pattern turned out to be one of the cleanest structuring methods possible for the swift language. The advantage is that you have a clean interface of properties on top of the class which helps to recognize all subviews at one glance - in contrast of setting up views in a property closure. Furthermore you can use `self` since these functions are called after initialization. You have a clear overview of the adding order of subviews. Additionally you prevent one long function that sets up all properties of all subviews - typically init or viewDidLoad. Last but not least if you stick to this pattern it is much easier to understand the structure of the whole app since you'll find this pattern all over again.
+1. **Use special function to setup layout constraints.** Always use `func setupLayoutConstraints` to create constraints between all subviews! Call it right after the last subview setup* function in viewDidLoad (UIViewController) or init (UIView). This activates all layout constraints.
+1. **Never set `translatesAutoresizingMaskIntoConstraints` manually.** We have the functions `addTo()` and `addMaximizedTo()` which do that automatically.
 
 ## Access Qualifier
 
