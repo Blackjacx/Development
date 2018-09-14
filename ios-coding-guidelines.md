@@ -10,8 +10,9 @@
 1. **Localized-strings used in a framework F must be defined there.** If don't folow this rule, **F** depends on the target/module where the string is defined and thus is not modular/independent anymore. If e.g. another target/module uses a class of **F** that contains a localized string which is outside of **F** the translation could not be found.
 1. **Name selectors with the pattern on<action_name>** Having a unified pattern for naming selectors helps to make code understandable faster. The on* pattern is also used in other programming languages like JavaScript.
 1. **No file header.** Remove comment header for newly created files since it will be always outdated (copyright, spelling errors in file names, etc.).
+1. **Avoid multiple statements in one line / long lines.** They are harder to read. They are harder to understand. They are even not visible when you work in multiple editor windows side by side - or even worse break to the next line. They could be misunderstood by new developers as an indicator to use it everywhere which will greatly degrade the codebase.
 
-## UIView • UIVIewController Architecture
+## UIView • UIViewController Architecture
 
 These guidelines are meant to be used without Interface Builder and teach you how to work with views programmatically.
 
