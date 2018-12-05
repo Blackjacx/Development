@@ -9,7 +9,6 @@
 - You actively push your limits in TDD and CI
 - You know how to work with fastlane and how to automate build processes using shell scripts
 - You developed at least one app that needs data persitence using data bases like CoreData, SQLite
-- Migrated at least one project from Obj-C > Swift or Java > Kotlin
 
 # What We Need From You In Advance?
 
