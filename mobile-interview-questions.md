@@ -21,7 +21,7 @@
 - [ ] We introduce ourselves
 - [ ] Applicant introduces himself and tells us why he applied at `<company>`
 - [ ] We ask questions to get to know the applicant
-- [ ] Question time for the applicant
+- [ ] Applicant aks questions
 
 # Questions
 
