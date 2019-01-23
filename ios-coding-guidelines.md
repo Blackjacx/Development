@@ -14,7 +14,7 @@
 
 1. **Never set `translatesAutoresizingMaskIntoConstraints` manually.** We have the functions `<subview>.addTo(<parent>)` and `<subview>.addMaximizedTo(<parent>)` which do that automatically.
 1. **UI Alerts** Use UIAlertController extension to display alerts and action sheets.
-1. **Fonts** Never define a font in code, but rather use or extend the presets in the Fonts class.
+1. **Fonts** Never define a font in code, but rather use or extend the presets in the Fonts enum.
 1. **Colors** Never define a color in code, but rather use or extend the UIColor extensions.
 1. **Date Formatter** You don'thave to configure your own `DateFormatter` objects, use `SHDateFormatter` instead. If it doesn't contain a date format you need, extend it in `SHDateFormatter+Extensions`.
 1. **Hiding UIStackView Subviews** Use the `showArrangedSubview` method in the `UIView+Extensions` to show or hide arranged subviews.
