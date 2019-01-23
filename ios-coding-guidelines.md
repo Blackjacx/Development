@@ -12,7 +12,7 @@
 
 ## Framework Extensions
 
-1. **Never set `translatesAutoresizingMaskIntoConstraints` manually.** We have the functions `addTo()` and `addMaximizedTo()` which do that automatically.
+1. **Never set `translatesAutoresizingMaskIntoConstraints` manually.** We have the functions `<subview>.addTo(<parent>)` and `<subview>.addMaximizedTo(<parent>)` which do that automatically.
 1. **UI Alerts** Use UIAlertController extension to display alerts and action sheets.
 1. **Fonts** Never define a font in code, but rather use or extend the presets in the Fonts class.
 1. **Colors** Never define a color in code, but rather use or extend the UIColor extensions.
