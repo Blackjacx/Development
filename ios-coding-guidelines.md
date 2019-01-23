@@ -35,6 +35,6 @@ These guidelines are meant to be used without Interface Builder and teach you ho
 
 1. **Line Breaks** Leave a blank line underneath every function declaration, except if the body is one line long. This is not necessary in computed properties.
 1. **Closure Style** Use the short style of closure with two `{}` whenever possible.
-1. **Commments** Comment functions and properties using `\\\` only if it enhances their comprehendibility. Generally comment code snippets if you deem reasonable. Sometimes design choices or complex structures are not immediately obvious to understand, in such cases comment are useful for others and your future self.
+1. **Commments** Comment functions and properties using `\\\` only if it enhances their comprehensibility. Generally comment code snippets if you deem reasonable. Sometimes design choices or complex structures are not immediately obvious to understand, in such cases comment are useful for others and your future self.
 1. **No file header.** Remove comment header for newly created files since it will be always outdated (copyright, spelling errors in file names, etc.).
 1. **Name bools with the pattern isState** This is easy to read and matches the swifty naming conventions in the updated iOS frameworks.
