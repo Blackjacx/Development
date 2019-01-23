@@ -4,7 +4,7 @@
 - You used Swift or Kotlin in at least one project for more than a year
 - You are experienced in agile software development
 - You are able to implement complex features on your own
-- You have a pad project like your own app in the AppStore or you are maintainer of an open source product
+- You have a pet project like your own app in the AppStore or you are maintainer of an open source product
 - You know how to develop and distribute an open source framework
 - You actively push your limits in TDD and CI
 - You know how to work with fastlane and how to automate build processes using shell scripts
