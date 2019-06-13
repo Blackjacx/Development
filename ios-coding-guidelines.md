@@ -40,3 +40,7 @@ These guidelines are meant to be used without Interface Builder and teach you ho
 1. **Commments** Comment functions and properties using `\\\` only if it enhances their comprehensibility. Generally comment code snippets if you deem reasonable. Sometimes design choices or complex structures are not immediately obvious to understand, in such cases comments are useful for others and your future self.
 1. **No file header.** Remove comment header for newly created files since it will be always outdated (copyright, spelling errors in file names, etc.).
 1. **Name bools with the pattern isState** This is easy to read and matches the swifty naming conventions in the updated iOS frameworks.
+
+## Xcode
+
+1. **No White-Spaces In Group/Folder Names** Scripts do not like whitespaces. Since we have a lot of automation by scripts, please use `_` as replacement for them.
