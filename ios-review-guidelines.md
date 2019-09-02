@@ -3,3 +3,6 @@
 1. The [coding guidelines](./ios-coding-guidelines.md) must match.
 1. Code duplicates are not allowed.
 1. If you found a typo, copy the sentence, paste it in the Github comment and mark the typo using **bold** font. This makes it easier for the reviewer to find them if is e.g. a single word.
+
+# Links
+- [Check especially for this](https://twitter.com/jasongorman/status/1150323752632311808)
