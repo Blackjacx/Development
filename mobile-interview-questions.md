@@ -115,7 +115,7 @@
 - [ ] [---] What is important when conecting the networking layer of your app to the UI regarding multi threading?
 - [ ] [iOS] What is the "Visual Format Language"?
 - [x] [iOS] How exactly is your workflow when creating a view controller? `[-IB, +InCode]`
-- [ ] [iOS] Did you ever cerate kompklex apps (>10 view controllers) withour interface builder?
+- [ ] [iOS] Did you ever create complex apps (>10 view controllers) withour interface builder?
 
 ### Testing
 
