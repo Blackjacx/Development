@@ -50,11 +50,12 @@ These guidelines are meant to be used without Interface Builder and teach you ho
 
 ## Accessibility
 
-1. Use the accessibility id of a view to make it identifiable for unit tests or voice over announcements. The syntax for those identifiers should be `aid.<view_controller>.<view>` or if further scoping is needed `aid.<view_controller>.<parent_view>.<view>`.
-1. Set the appropriate accessibility traits if not set automatically. While buttons usually have it inherently set, labels functioning as headers need need their trait set to `.header`. The same applies for search fields. In cases were another view serves as a button, it's trait should be set to `.button`.
-1. Only when absolutely necessary, use post notifications to inform about screen changes, for example ride cancellation, disappearing or appearing popovers or warning labels. An alternative would be to manually refocus an element
-and re-read it's label or hint, containing the new information.
-1. Images should either be disabled or have a description meaningful enough to be worth a blind person's time.
-1. Focussable elements should be kept to the necessary minimum. For example, labels and controls that belong together should be treated as one element. The element should have its label's text for its a11y label and the control as its action. (Compare the title + switch cells in the iOS Settings App.)
-1. Any colors should have a sufficient contrast (at least 4.5:1 for fonts <18pt and 3:1 for fonts >=18pt or see the [documentation](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast)).
-1. Any view containing text should be size-adaptible enough to support the highest Dynamic Type setting (not the `Larger Accessibility Sizes`.)
+[This article](https://developer.apple.com/news/?id=v56qu1b3) by Apple is a good introduction and reference for how to use Voice Over.
+
+1. **Use the `accessibilityId` of a view to make it identifiable in Unit/UI Tests or Voice Over announcements** The syntax for those identifiers should be `aid.<view_controller>.<ui_element>` or if further scoping is needed `aid.<view_controller>.<parent_view>.<ui_element>`.
+1. **Set the appropriate accessibility traits if not set automatically** While buttons usually have it implicitly set, labels functioning as e.g. headers need need their traits set to `.header`. The same applies for search fields. In cases were a UIView serves as a button, it's trait should be set to `.button`.
+1. **Use post notifications to inform about screen/layout changes** Use it always when a new screen/popup/alert is displayed and you want to draw the users attention to it. Use it sparsely in other situations since it interrupts messages spoken by Voice Over on user interaction. An alternative would be to manually refocus an element and re-read it's label or hint, containing the new information.
+1. **Disable Voice Over for images** Blind people cannot see the image. If you enable Voice over here it should be a meaningful and short description of what the image shows.
+1. **Group elements to declutter the UI for Voice Over users** Focussable elements should be kept to the necessary minimum. For example, labels and controls that belong together should be grouped to one accessibility element. The element should have its label's text for its a11y label and the control as its action. Compare the title + switch cells in the iOS Settings App.
+1. **Any colors should have a sufficient contrast** Use at least 4.5:1 for fonts <18pt and 3:1 for fonts >=18pt. You can also read in the official [WCAG20 docs](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast) about this topic.
+1. **Any view that contains text should support Dynamic Type** These views should adapt to different font sizes so the UI looks good when the user scales up/down the font in the iOS settings. Support of the highest Dynamic Type setting is enough. `Larger Accessibility Sizes` are not equired for now.
