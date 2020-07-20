@@ -60,3 +60,7 @@ These guidelines are meant to be used without Interface Builder and teach you ho
 1. **Group elements to declutter the UI for Voice Over users** Focussable elements should be kept to the necessary minimum. For example, labels and controls that belong together should be grouped to one accessibility element. The element should have its label's text for its a11y label and the control as its action. Compare the title + switch cells in the iOS Settings App.
 1. **Any colors should have a sufficient contrast** Use at least 4.5:1 for fonts <18pt and 3:1 for fonts >=18pt. You can also read in the official [WCAG20 docs](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast) about this topic.
 1. **Any view that contains text should support Dynamic Type** These views should adapt to different font sizes so the UI looks good when the user scales up/down the font in the iOS settings. Support of the highest Dynamic Type setting is enough. `Larger Accessibility Sizes` are not equired for now.
+
+## Testing
+
+1. **Extract testing code to helper fuctions** if you need to write the same testing code over and over again to test similar things. The problem here is that Xcode will report the failure in your helper function. This is easily fixable by writing your function like this: `func verify(file: StaticString = #file, line: UInt = #line) { XCTAssertEqual(1, 3, file: file, line: line) }`! The eror will jump to the call site of the extracted function.
