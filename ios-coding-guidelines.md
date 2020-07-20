@@ -63,4 +63,4 @@ These guidelines are meant to be used without Interface Builder and teach you ho
 
 ## Testing
 
-1. **Extract testing code to helper fuctions** if you need to write the same testing code over and over again to test similar things. The problem here is that Xcode will report the failure in your helper function. This is easily fixable by writing your function like this: `func verify(file: StaticString = #file, line: UInt = #line) { XCTAssertEqual(1, 3, file: file, line: line) }`! The eror will jump to the call site of the extracted function.
+1. **Extract testing code to helper fuctions** if you need to write the same testing code over and over again to test similar things. The problem here is that Xcode will report the failure in your helper function. This is easily fixable by writing your function like this: `func verify(file: StaticString = #file, line: UInt = #line) { XCTAssertEqual(1, 3, file: file, line: line) }`! The error message will jump to the call site of the extracted function.
