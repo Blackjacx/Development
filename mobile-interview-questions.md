@@ -37,6 +37,7 @@
 - [ ] In which role do you see yourself at `<company>`?
 - [ ] Why you changed your focus from `<working_topic_I>` to `<working_topic_II>`?
 - [ ] What are your goals when working for `<company>`?
+- [ ] Can you please describe the role that you would be doing at `<company>` in your own words and describe a few of the tasks you think you would get here?
 - [ ] What is your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
 - [ ] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
