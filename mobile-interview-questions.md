@@ -174,3 +174,4 @@
 - [50 Interview Questions Pt 2](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f)
 - [50 Interview Questions Pt 3](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d)
 - [iOS Questions](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions)
+- [Linkedin Interview Guide](https://github.com/Blackjacx/Development/files/5623231/linkedin-interview-guide.pdf.zip)
