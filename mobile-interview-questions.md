@@ -32,7 +32,7 @@
 - [x] What do you already know about `<company>`
 - [x] Why you want to leave your current job and home country?
 - [ ] What was the biggest challenge you have faced with at work and how you coped with that?
-- [x] Today. In exactly one year. It is 12 pm. What are you doing?
+- [x] Today. In exactly one year. What are you doing?
 - [x] What would your manager say about you and what your best friend?
 - [ ] In which role do you see yourself at `<company>`?
 - [ ] Why you changed your focus from `<working_topic_I>` to `<working_topic_II>`?
@@ -69,7 +69,7 @@
 ### Prioritization
 
 - [x] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
-- [ ] Describe a situation where you felt stressed and overwhelmed. What do you do in such a situation?
+- [ ] Describe a situation where you felt stressed and overwhelmed in a project. How did you cope with that?
 - [ ] How do you decide how much time is needed for a user story?
 - [ ] Think about a project that you had to plan! How did you organize all the necessary tasks?
 - [ ] Describe a situation where you delegated an important task.
@@ -113,10 +113,9 @@
 ### UI
 
 - [ ] [---] What might be the reason when an app hangs on user input?
-- [ ] [---] What is important when conecting the networking layer of your app to the UI regarding multi threading?
-- [ ] [iOS] What is the "Visual Format Language"?
+- [ ] [---] What is important when connecting the networking layer of your app to the UI regarding multi threading?
 - [x] [iOS] How exactly is your workflow when creating a view controller? `[-IB, +InCode]`
-- [ ] [iOS] Did you ever create complex apps (>10 view controllers) withour interface builder?
+- [ ] [iOS] Did you ever create complex apps (>10 view controllers) without interface builder?
 
 ### Testing
 
