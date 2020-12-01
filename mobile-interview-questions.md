@@ -126,6 +126,12 @@
 - [ ] [---] What is the Test Pyramid?
 - [x] [iOS] What are your options about automated UI-Tests with Xcode? `[XCUITest]`
 
+### Design Patterns
+
+- [ ] [---] What are design patterns?
+- [ ] [---] Which design patterns do you know?
+- [ ] [---] Describe the MVC-Pattern with the example of a download manager.
+
 ### Data Persistence
 
 - [ ] [---] Where do you store your sensitive authentication data?
@@ -145,7 +151,6 @@
 
 - [ ] [iOS] What is ARC and how it changed the development apps? What methods are obslete to implement?
 - [ ] [iOS] What is the AutoRealesePool for?
-
 - [ ] [iOS] What is the replacement for the AutoReleasePool in iOS5 with ARC? `[@autorelease]`
 
 ### Programming Languages
@@ -161,12 +166,6 @@
 
 - [ ] [---] What whitelabelling stands for?
 - [ ] [---] Imagine you have two customers. How to implement dedicated [wording, colors, assets, fonts, different server url's, ...]
-
-### Design Patterns
-
-- [ ] [---] What are design patterns?
-- [ ] [---] Which design patterns do you know?
-- [ ] [---] Describe the MVC-Pattern with the example of a download manager.
 
 # Links
 
