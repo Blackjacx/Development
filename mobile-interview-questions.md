@@ -32,12 +32,12 @@
 - [x] What do you already know about `<company>`
 - [x] Why you want to leave your current job and home country?
 - [ ] What was the biggest challenge you have faced with at work and how you coped with that?
-- [x] Today. In exactly one year. What are you doing?
-- [x] What would your manager say about you and what your best friend?
+- [ ] Today. In exactly one year. What are you doing?
+- [x] Can you please describe your role at `<company>` from your perspective, e.g. via describing the tasks you would get here?
 - [ ] In which role do you see yourself at `<company>`?
+- [x] When I ask you manager and your best friend, how would they describe you?
 - [ ] Why you changed your focus from `<working_topic_I>` to `<working_topic_II>`?
 - [ ] What are your goals when working for `<company>`?
-- [ ] Can you please describe the role that you would be doing at `<company>` in your own words and describe a few of the tasks you think you would get here?
 - [ ] What is your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
 - [ ] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
@@ -45,23 +45,23 @@
 
 ### Adaptability
 
-- [x] Did you ever had to adapt to the working style of a collegue to finish a project? How did you cope with that?
+- [ ] Did you ever had to adapt to the working style of a collegue to finish a project? How did you cope with that?
 - [ ] Have you ever been in a situation where you had to do something you never did before? How did you react and what did you learn?
 - [ ] Please describe a past work situation where you started to use a new technology or idea that totally diverged from your way of working so far.
 - [ ] Think about a time when you received a task apart from your main responsibilities, e.g. implementing this one feature in a different language. How did you tackle this problem?
-- [ ] Please tell us about the biggest change in you career you where faced with? How did you cope with the situation?
+- [x] Please tell us about the biggest change in you career you where faced with? How did you cope with the situation?
 
 ### Company / Cultural Fit
 
 - [x] What is necessary that you decide yourself for our company instead of another one?
 - [ ] Which 3 aspects are most important for you in a job.
-- [ ] What is the your most interesting characteristic we don't know from your CV already?
+- [x] What is the your most interesting characteristic we don't know from your CV already?
 - [ ] In which aspects your collegues assess you in a wrong way and why is that so?
 
 ### Collaboration
 
-- [x] Had you ever communication problems with a collegue that simply didn't understand your concern? What have you done about it?
-- [ ] Describe the best colleague/boss you worked together with. What did you like most on this person?
+- [ ] Had you ever communication problems with a collegue that simply didn't understand your concern? What have you done about it?
+- [x] Describe the best colleague/boss you worked together with. What did you like most on this person?
 - [ ] Please talk about a situation where you had to work together with a complicated colleague. How you dealt with that situation?
 - [ ] Tell us about your most pleasant experience at work and your contribution to it.
 - [ ] Describe a situation where your project goals changed dramatically! How you dealt with this situation?
@@ -76,7 +76,7 @@
 
 ### Development Potential
 
-- [x] Which is your biggest carreer goal? Why?
+- [ ] Which is your biggest carreer goal? Why?
 - [ ] When was the last time you requested feedback from your boss or a colleague? Why?
 - [ ] Did you have a situation where your boss was not available and a problem arised? How you coped with this? Whom did you ask for help?
 - [ ] Did you ever deepened your knowledge in a different area than the current requirements? Please tell me about your reasons for that!
