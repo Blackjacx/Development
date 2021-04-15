@@ -86,7 +86,7 @@
 
 - [ ] Please tell us about the last work situation where something went wrong? Which role did you play and how the situation ended?
 - [ ] Please describe a situation where you had to convince somebody to view a task from your perspective! Which steps did you take and what was the result?
-- [ ] Describe a situation where you had the feeling that you've chosen the best for your team way to solve a problem? How did the other react?
+- [ ] Describe a situation where you had the feeling that you've chosen the best way for your team to solve a problem? How did the other react?
 - [ ] What was the most difficult decision in your last six month?
 - [ ] Did you ever have to "sell" an idea to your team? How did you proceed and what was the result?
 
