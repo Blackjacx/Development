@@ -64,3 +64,5 @@ These guidelines are meant to be used without Interface Builder and teach you ho
 ## Testing
 
 1. **Extract testing code to helper fuctions** if you need to write the same testing code over and over again to test similar things. The problem here is that Xcode will report the failure in your helper function. This is easily fixable by writing your function like this: `func verify(file: StaticString = #file, line: UInt = #line) { XCTAssertEqual(1, 3, file: file, line: line) }`! The error message will jump to the call site of the extracted function.
+2. **Prefer `XCTUnwrap` over `guard let`:** XCTUnwrap requires only 1 line instead of at least 3 for the guard. It makes tests much more readable. The error message is even better and most important **standardized**: `XCTUnwrap failed: expected non-nil value of type "UIDatePicker"`. No worries the `it` closures of Quick will handle thrown errors correctly.
+
