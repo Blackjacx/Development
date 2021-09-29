@@ -29,56 +29,57 @@
 
 ### General
 
-- [x] What do you already know about `<company>`
-- [x] Why you want to leave your current job and home country?
-- [ ] What was the biggest challenge you have faced with at work and how you coped with that?
-- [ ] Today. In exactly one year. What are you doing?
+- [x] How did you hear about the position and what do you know about `<company>` already?
+- [ ] Why you want to leave your current job and home country?
+- [x] What was the biggest challenge you have faced with at work and how you coped with that?
+- [x] Today, in exactly one year, what are you expecting to do?
 - [x] Can you please describe your role at `<company>` from your perspective, e.g. via describing the tasks you would get here?
-- [ ] In which role do you see yourself at `<company>`?
+- [x] In which role do you see yourself at `<company>`?
 - [x] When I ask you manager and your best friend, how would they describe you?
 - [ ] Why you changed your focus from `<working_topic_I>` to `<working_topic_II>`?
 - [ ] What are your goals when working for `<company>`?
 - [ ] What is your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
-- [ ] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
+- [x] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
 - [ ] Why we should NOT hire you?
 
 ### Adaptability
 
-- [ ] Did you ever had to adapt to the working style of a collegue to finish a project? How did you cope with that?
+- [ ] Did you ever had to adapt to the working style of a colleague to finish a project? How did you cope with that?
 - [ ] Have you ever been in a situation where you had to do something you never did before? How did you react and what did you learn?
 - [ ] Please describe a past work situation where you started to use a new technology or idea that totally diverged from your way of working so far.
-- [ ] Think about a time when you received a task apart from your main responsibilities, e.g. implementing this one feature in a different language. How did you tackle this problem?
-- [x] Please tell us about the biggest change in you career you where faced with? How did you cope with the situation?
+- [x] Think about a time when you received a task apart from your main responsibilities, e.g. implementing this one feature in a different language. How did you solve that problem?
+- [ ] Please tell us about the biggest change in you career you where faced with? How did you cope with the situation?
 
 ### Company / Cultural Fit
 
 - [x] What is necessary that you decide yourself for our company instead of another one?
 - [ ] Which 3 aspects are most important for you in a job.
-- [x] What is the your most interesting characteristic we don't know from your CV already?
-- [ ] In which aspects your collegues assess you in a wrong way and why is that so?
+- [ ] What is the your most interesting characteristic we don't know from your CV already?
+- [x] In which aspects your collegues assess you in a wrong way and why is that so?
 
 ### Collaboration
 
 - [ ] Had you ever communication problems with a collegue that simply didn't understand your concern? What have you done about it?
-- [x] Describe the best colleague/boss you worked together with. What did you like most on this person?
-- [ ] Please talk about a situation where you had to work together with a complicated colleague. How you dealt with that situation?
-- [ ] Tell us about your most pleasant experience at work and your contribution to it.
-- [ ] Describe a situation where your project goals changed dramatically! How you dealt with this situation?
+- [ ] Describe the best colleague/boss you worked together with. What did you like most on this person?
+- [ ] Please talk about a situation where you had to work together with a complicated colleague. How did you deal with that situation?
+- [x] Tell us about your most pleasant experience at work and your contribution to it.
+- [ ] Describe a situation where your project goals changed dramatically! How did you deal with this situation?
 
 ### Prioritization
 
-- [x] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
+- [ ] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
 - [ ] Describe a situation where you felt stressed and overwhelmed in a project. How did you cope with that?
 - [ ] How do you decide how much time is needed for a user story?
 - [ ] Think about a project that you had to plan! How did you organize all the necessary tasks?
 - [ ] Describe a situation where you delegated an important task.
+- [x] Imagine you get 5 tasks assigned for the next 2 weeks. How would you structure your work to solve these tasks?
 
 ### Development Potential
 
 - [ ] Which is your biggest carreer goal? Why?
 - [ ] When was the last time you requested feedback from your boss or a colleague? Why?
-- [ ] Did you have a situation where your boss was not available and a problem arised? How you coped with this? Whom did you ask for help?
+- [x] Did you have a situation where your boss was not available and a problem arised? How you coped with this? Whom did you ask for help?
 - [ ] Did you ever deepened your knowledge in a different area than the current requirements? Please tell me about your reasons for that!
 - [ ] What is needed that you leave your current position and start something new?
 
@@ -90,18 +91,15 @@
 - [ ] What was the most difficult decision in your last six month?
 - [ ] Did you ever have to "sell" an idea to your team? How did you proceed and what was the result?
 
-
-
 ## Technical Questions
 
 ### General - Apps
 
 - [ ] [---] Which of your apps are avalable in the store? Did you develop them on your own?
-
 - [ ] [---] Which of your apps had the most users. How many?
 - [x] [---] What was the most complex app you worked on and what was the main challenge?
 - [ ] [---] Which was the first `<Android | iOS>` version you worked with?
-- [x] [---] How do you improve yourself in software development? `[Conferences, Blogs, (WWDC-)Videos, Tutorials]`
+- [ ] [---] How do you improve yourself in software development? `[Conferences, Blogs, (WWDC-)Videos, Tutorials]`
 
 ### Open Source
 
@@ -114,17 +112,18 @@
 
 - [ ] [---] What might be the reason when an app hangs on user input?
 - [ ] [---] What is important when connecting the networking layer of your app to the UI regarding multi threading?
-- [x] [iOS] How exactly is your workflow when creating a view controller? `[-IB, +InCode]`
+- [ ] [iOS] Describe your way of creating a new view contzroller. `[-IB, +InCode]`
 - [ ] [iOS] Did you ever create complex apps (>10 view controllers) without interface builder?
 
 ### Testing
 
 - [ ] [---] How do you ensure that your app always meets certain quality criteria?
 - [ ] [---] Please describe the meaning of TDD shortly!
+- [x] [---] Please describe Continuous INtegration and its purpose. Did you actually use it already?
 - [ ] [---] What is CI and in how many projects you used it for test automation?
 - [ ] [---] Which testing frameworks do you know and how do you use them? `[Quick - BDD testing, Nimble - matcher, XCTest - Xcode native testing framework]`
 - [ ] [---] What is the Test Pyramid?
-- [x] [iOS] What are your options about automated UI-Tests with Xcode? `[XCUITest]`
+- [ ] [iOS] What are your options about automated UI-Tests with Xcode? `[XCUITest]`
 
 ### Design Patterns
 
@@ -155,17 +154,17 @@
 
 ### Programming Languages
 
-- [x] [---] In how many projects you used `<Swift | Kotlin>`?
+- [ ] [---] In how many projects you used `<Swift | Kotlin>`?
 - [ ] [---] Did you already migrated projects from `<Obj-C | Java>` to `<Swift | Kotlin>`? Wht was the greatest challenge?
-- [ ] [---] What's your favorite programming language?
+- [x] [---] What's your favorite programming language?
 - [ ] [---] What's your favorite thing in that language?
 - [ ] [---] If you could change something in it, what would that be? What implications would this have?
 - [ ] [---] If you had to learn a new language, which one would it be, and why?
 
 ### Whitelabelling
 
-- [ ] [---] What whitelabelling stands for?
-- [ ] [---] Imagine you have two customers. How to implement dedicated [wording, colors, assets, fonts, different server url's, ...]
+- [x] [---] What do you think is meant by white-labelling?
+- [x] [---] Imagine you have two customers. How to implement dedicated [wording, colors, assets, fonts, different server url's, ...]
 
 # Links
 
