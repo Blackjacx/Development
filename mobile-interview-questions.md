@@ -79,7 +79,7 @@
 
 - [ ] Which is your biggest carreer goal? Why?
 - [ ] When was the last time you requested feedback from your boss or a colleague? Why?
-- [x] Did you have a situation where your boss was not available and a problem arised? How you coped with this? Whom did you ask for help?
+- [x] Did you have a situation where your lead was not available and a problem arised? How you coped with this? Whom did you ask for help?
 - [ ] Did you ever deepened your knowledge in a different area than the current requirements? Please tell me about your reasons for that!
 - [ ] What is needed that you leave your current position and start something new?
 
