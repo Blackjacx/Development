@@ -33,9 +33,9 @@
 - [ ] Why you want to leave your current job and home country?
 - [x] What was the biggest challenge you have faced with at work and how you coped with that?
 - [x] Today, in exactly one year, what are you expecting to do?
-- [x] Can you please describe your role at `<company>` from your perspective, e.g. via describing the tasks you would get here?
+- [ ] Can you please describe your role at `<company>` from your perspective, e.g. via describing the tasks you would get here?
 - [x] In which role do you see yourself at `<company>`?
-- [x] When I ask you manager and your best friend, how would they describe you?
+- [ ] When I ask you manager and your best friend, how would they describe you?
 - [ ] Why you changed your focus from `<working_topic_I>` to `<working_topic_II>`?
 - [ ] What are your goals when working for `<company>`?
 - [ ] What is your experience in agile software development?
