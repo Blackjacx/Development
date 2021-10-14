@@ -156,8 +156,7 @@
 
 - [ ] [---] In how many projects you used `<Swift | Kotlin>`?
 - [ ] [---] Did you already migrated projects from `<Obj-C | Java>` to `<Swift | Kotlin>`? Wht was the greatest challenge?
-- [x] [---] What's your favorite programming language?
-- [ ] [---] What's your favorite thing in that language?
+- [x] [---] What's your favorite programming language and what do you like most on it?
 - [ ] [---] If you could change something in it, what would that be? What implications would this have?
 - [ ] [---] If you had to learn a new language, which one would it be, and why?
 
