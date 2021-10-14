@@ -149,7 +149,7 @@
 ### Memory Management
 
 - [ ] [iOS] What is ARC and how it changed the development apps? What methods are obslete to implement?
-- [ ] [iOS] What is the AutoRealesePool for?
+- [ ] [iOS] What is the AutoRealeasePool for?
 - [ ] [iOS] What is the replacement for the AutoReleasePool in iOS5 with ARC? `[@autorelease]`
 
 ### Programming Languages
