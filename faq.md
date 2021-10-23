@@ -4,7 +4,8 @@
 
 ### Q
 How to fix when Chrome's display is broken?
-![Screen Shot 2021-05-27 at 18 05 37](https://user-images.githubusercontent.com/794372/138553580-4829fdf9-ef14-42d1-821f-2486ba1f20c9.png)
+
+<img src="https://user-images.githubusercontent.com/794372/138553580-4829fdf9-ef14-42d1-821f-2486ba1f20c9.png" width=30% />
 
 ### A
 Restart your mac OR reset [PRAM](https://techterms.com/definition/pram#:~:text=You%20can%20reset%20or%20%22zap,you%20can%20release%20the%20keys.) OR if it still doesn't work reset [SMC](https://purplecomputing.com/tech-how-to/how-to-reset-the-smc-system-management-controller/).
