@@ -13,4 +13,5 @@ All sort of public guides and information related to mobile development.
 
 ## Links
 
-1. [Link Collection](links.md)
+1. [Links Collection](links.md)
+1. [FAQ](faq.md)
