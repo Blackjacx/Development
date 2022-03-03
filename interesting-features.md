@@ -3,6 +3,10 @@
 ## Swift
 
 ### [5.6](https://www.hackingwithswift.com/articles/247/whats-new-in-swift-5-6)
+- **Introduce existential keyword `any`** to mark existential types
+- **Type placeholders** which allow us to explicitly specify only some parts of a value’s type so that the remainder can be filled in using type inference.
+- **CodingKeyRepresentable** protocol that allows dictionaries with keys that aren’t a plain String or Int to be used as CodingKeys when converted to JSON. Even custom structs can be used as coding keys.
+- **Unavailability condition** representing an inverted form of #available called #unavailable, which will run some code if an availability check fails.
 
 ### [5.5](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5)
 - **Async/Await:** can replace many completion handlers! Especially nested asynchronere function calls.
@@ -42,3 +46,14 @@
 - **HTTPHeaders Type:** Type safe access to common HTTP headers, with extensions to URLRequest, HTTPURLResponse, and URLSessionConfiguration to allow setting the headers of those types using Alamofire’s new type.
 - **RetryPolicy:** A RequestRetrier with automatic support for retrying requests which failed due to a network or other system error, with customizable exponential backoff, retry limits, and other parameters.
 - **Serializers** updated with more configuration options, including allowed **empty response** methods and codes, as well as the **DataPreprocessor** protocol, to prepare the received Data for serialization (**get rid of the DataWrapper?!**).
+
+## WWDC/iOS
+**App tracking controls and transparency**
+Developers are now required to get your consent before tracking you, so you can choose which apps have permission to track. And see which apps you have given permission to track in Settings so you can change your preferences.
+**Approximate location**
+A new setting lets you choose to share your approximate location, rather than your precise location, with an app.
+**Upgrade to Sign in with Apple**
+Developers can offer the option to upgrade existing app accounts to Sign in with Apple so users can enjoy improved privacy, security, and ease of use without setting up a new account.
+**VoiceOver Recognition**
+On-device intelligence recognizes key elements displayed on your screen to add VoiceOver support for app and web experiences that don’t have accessibility support built in.
+**Menus**
