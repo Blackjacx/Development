@@ -2,9 +2,9 @@
 
 ## Swift
 
-## [5.6](https://www.hackingwithswift.com/articles/247/whats-new-in-swift-5-6)
+### [5.6](https://www.hackingwithswift.com/articles/247/whats-new-in-swift-5-6)
 
-## [5.5](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5)
+### [5.5](https://www.hackingwithswift.com/articles/233/whats-new-in-swift-5-5)
 - **Async/Await:** can replace many completion handlers! Especially nested asynchronere function calls.
 - **AsyncSequence Protocol:** very useful to e.g. load several objects from a backend and process them as they come in. Reverse geocoding of Locations, processing of locations, etc.
 - **Codable synthesis for enums with associated values:** very complex JSON structures are creatable in a simple way
@@ -13,14 +13,14 @@
 - [NotificationCenter](https://developer.apple.com/documentation/foundation/notificationcenter) includes a new [AsyncSequence API](https://developer.apple.com/documentation/swift/asyncsequence) for receiving notifications using async/await. (74401384)
 - A new Swift value type [AttributedString](https://developer.apple.com/documentation/foundation/attributedstring) is now available with the same character-counting behavior as Swift string. It is fully localizable, and also includes support for Markdown, Codable, strongly typed attributes, and more. (27227292)
 
-## [5.4](https://www.hackingwithswift.com/articles/228/whats-new-in-swift-5-4)
+### [5.4](https://www.hackingwithswift.com/articles/228/whats-new-in-swift-5-4)
 - **Improved implicit member syntax** (UIColor.red.cgcolor > .red.cgcolor)
 - **Result builders** (can probably be used to auto-chain Operations 🎉)
 - **Swift Package Manager caches package dependencies** ([Swift Packages](https://stackoverflow.com/questions/66143815/xcode-12-5-spm-dependency-cache-location))
 - Property wrappers are now supported for local variables
 - Local functions now support overloading
-- 
-## [5.3](https://www.hackingwithswift.com/articles/218/whats-new-in-swift-5-3)
+
+### [5.3](https://www.hackingwithswift.com/articles/218/whats-new-in-swift-5-3)
 - **Swift Package Manager gains binary dependencies, resources, and more**
 - **Type-Based Program Entry Points (@main)**
 - **multi trailing closures**
@@ -29,7 +29,7 @@
 - increased availability of self in closures
 - Multi-pattern catch clauses
 
-## [5.0](https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0)
+### [5.0](https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0)
 
 ## Alamofire
 https://github.com/Alamofire/Alamofire/blob/master/Documentation/Alamofire%205.0%20Migration%20Guide.md#alamofire-50-migration-guide
