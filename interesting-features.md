@@ -49,16 +49,20 @@
 
 ## WWDC/iOS
 
-### App tracking controls and transparency
+**App tracking controls and transparency**
+
 Developers are now required to get your consent before tracking you, so you can choose which apps have permission to track. And see which apps you have given permission to track in Settings so you can change your preferences.
 
-### Approximate location
+**Approximate location**
+
 A new setting lets you choose to share your approximate location, rather than your precise location, with an app.
 
-### Upgrade to Sign in with Apple
+**Upgrade to Sign in with Apple**
+
 Developers can offer the option to upgrade existing app accounts to Sign in with Apple so users can enjoy improved privacy, security, and ease of use without setting up a new account.
 
-### VoiceOver Recognition
+**VoiceOver Recognition**
+
 On-device intelligence recognizes key elements displayed on your screen to add VoiceOver support for app and web experiences that don’t have accessibility support built in.
 
-### Menus
+**Menus**
