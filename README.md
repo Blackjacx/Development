@@ -5,6 +5,7 @@ All sort of public guides and information related to mobile development.
 ## Mobile
 
 1. [Interview Questions Mobile](mobile-interview-questions.md)
+1. [Interesting Features](interesting-features.md)
 
 ### iOS
 
