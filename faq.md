@@ -9,7 +9,7 @@
 #### Answer
 Restart your mac OR reset [PRAM](https://techterms.com/definition/pram#:~:text=You%20can%20reset%20or%20%22zap,you%20can%20release%20the%20keys.) OR if it still doesn't work reset [SMC](https://purplecomputing.com/tech-how-to/how-to-reset-the-smc-system-management-controller/).
 
-### How to not-rendered preview icons in the file stacks of macOS's Dock?
+### How to fix non-rendered preview icons in the file stacks of macOS's Dock?
 
 Open `Activity Monitor`, search for the service `com.apple.quicklook.ThumbnailsAgent` and terminate it.
 
