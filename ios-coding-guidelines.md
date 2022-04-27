@@ -132,3 +132,8 @@ Extract testing code to helper fuctions if you need to write the same testing co
 
 #### Prefer `XCTUnwrap` over `guard let`
 XCTUnwrap requires only 1 line instead of at least 3 for the guard. It makes tests much more readable. The error message is even better and most important **standardized**: `XCTUnwrap failed: expected non-nil value of type "UIDatePicker"`. No worries the `it` closures of Quick will handle thrown errors correctly.
+
+## Git
+
+#### Conflicts on a branch have to be resolved by the author
+This is super important since only the author truely knows how to integrate the branches changes with the main development branch. The author is responsible for the PR and after making the changes ready for review there should not be ANY chnages by somebody else becasue they can lead to malfunctionality which falls back to the author in the end. 
