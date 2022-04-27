@@ -136,4 +136,4 @@ XCTUnwrap requires only 1 line instead of at least 3 for the guard. It makes tes
 ## Git
 
 #### Conflicts on a branch have to be resolved by the author
-This is super important since only the author truely knows how to integrate the branches changes with the main development branch. The author is responsible for the PR and after making the changes ready for review there should not be ANY chnages by somebody else becasue they can lead to malfunctionality which falls back to the author in the end. 
+This is super important since only the author truely knows how to integrate the changes of a branch into the development branch. The author is responsible for the PR and after making the changes ready for review there should not be changes by anybody else becasue they can lead to malfunctionality which falls back to the author in the end. Instead ask the author to do the changes. This basically happens during the review. 
