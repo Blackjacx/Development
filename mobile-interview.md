@@ -4,16 +4,17 @@
 - You used Swift or Kotlin in at least one project for more than a year
 - You are experienced in agile software development
 - You are able to implement complex features on your own
-- You have a pet project like your own app in the AppStore or you are maintainer of an open source product
-- You know how to develop and distribute an open source framework
-- You actively push your limits in TDD and CI
-- You know how to work with fastlane and how to automate build processes using shell scripts
+- You have a pet project like your own app in the App Store or you are maintainer of an open source package
+- You know how to develop and distribute an open source package
+- You actively push your limits in `Test Driven Development` and `Continuous Integration`
+- You know how to work with [Fastlane](https://fastlane.tools/) 
+- You are familiar in using/maintaining shell scripts to automate recurring tasks
 - You developed at least one app that needs data persitence using data bases like CoreData, SQLite
 
 # What We Need From You In Advance?
 
 - CV
-- StackOverflow-, Github-, Xing-, LinkedIn-Account
+- Stack-Overflow-, GitHub-, Xing-, LinkedIn-Account
 
 # Agenda
 
@@ -32,16 +33,15 @@
 - [x] How did you hear about the position and what do you know about `<company>` already?
 - [ ] Why you want to leave your current job and home country?
 - [x] What was the biggest challenge you have faced with at work and how you coped with that?
-- [x] Today, in exactly one year, what are you expecting to do?
-- [ ] Can you please describe your role at `<company>` from your perspective?
-- [x] In which role do you see yourself at `<company>`?
-- [ ] When I ask you manager and your best friend, how would they describe you?
+- [x] Today, in exactly one year, where do you see yourself?
+- [x] Can you please describe your role at `<company>` from your perspective?
+- [x] When I ask you manager and your best friend, how would both of them describe you?
 - [ ] Why you changed your focus from `<working_topic_I>` to `<working_topic_II>`?
 - [ ] What are your goals when working for `<company>`?
 - [ ] What is your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
 - [x] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
-- [ ] Why we should NOT hire you?
+- [x] Why we should NOT hire you?
 
 ### Adaptability
 
@@ -53,14 +53,14 @@
 
 ### Company / Cultural Fit
 
-- [x] What is necessary that you decide yourself for our company instead of another one?
-- [ ] Which 3 aspects are most important for you in a job.
-- [ ] What is the your most interesting characteristic we don't know from your CV already?
-- [x] In which aspects your collegues assess you in a wrong way and why is that so?
+- [ ] What is necessary that you decide yourself for `<company>` instead of another one?
+- [x] Which aspects are most important for you in a job and what are no-go's?
+- [x] What is the your most interesting characteristic we don't know from your CV already?
+- [ ] In which aspects your collegues assess you in a wrong way and why is that so?
 
 ### Collaboration
 
-- [ ] Had you ever communication problems with a collegue that simply didn't understand your concern? What have you done about it?
+- [x] Had you ever communication problems with a collegue that simply didn't understand your concern? How did you deal with this situation?
 - [ ] Describe the best colleague/boss you worked together with. What did you like most on this person?
 - [ ] Please talk about a situation where you had to work together with a complicated colleague. How did you deal with that situation?
 - [x] Tell us about your most pleasant experience at work and your contribution to it.
@@ -68,18 +68,18 @@
 
 ### Prioritization
 
+- [x] Imagine you get 15 tasks assigned for the next 2 weeks. How would you structure your work to solve these tasks?
 - [ ] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
 - [ ] Describe a situation where you felt stressed and overwhelmed in a project. How did you cope with that?
 - [ ] How do you decide how much time is needed for a user story?
 - [ ] Think about a project that you had to plan! How did you organize all the necessary tasks?
 - [ ] Describe a situation where you delegated an important task.
-- [x] Imagine you get 5 tasks assigned for the next 2 weeks. How would you structure your work to solve these tasks?
 
 ### Development Potential
 
 - [ ] Which is your biggest carreer goal? Why?
-- [ ] When was the last time you requested feedback from your boss or a colleague? Why?
-- [x] Did you have a situation where your lead was not available and a problem arised? How you coped with this? Whom did you ask for help?
+- [x] When was the last time you requested feedback from your boss or a colleague? Why?
+- [ ] Did you have a situation where your lead was not available and a problem arised? How you coped with this? Whom did you ask for help?
 - [ ] Did you ever deepened your knowledge in a different area than the current requirements? Please tell me about your reasons for that!
 - [ ] What is needed that you leave your current position and start something new?
 
@@ -95,23 +95,23 @@
 
 ### General - Apps
 
+- [x] [---] What was the most complex app you worked on and what was the main challenge?
+- [ ] [---] How do you improve yourself in software development? `[Conferences, Blogs, (WWDC-)Videos, Tutorials]`
 - [ ] [---] Which of your apps are avalable in the store? Did you develop them on your own?
 - [ ] [---] Which of your apps had the most users. How many?
-- [x] [---] What was the most complex app you worked on and what was the main challenge?
 - [ ] [---] Which was the first `<Android | iOS>` version you worked with?
-- [ ] [---] How do you improve yourself in software development? `[Conferences, Blogs, (WWDC-)Videos, Tutorials]`
 
 ### Open Source
 
 - [x] [---] Which dependency managers / build systems do you know? `[Gradle, Cocoapods, Carthage, SPM]`
 - [ ] [---] Experience with open source frameworks?
-- [ ] [---] Which frameworks do you use mostly?
-- [ ] [---] Did you develop open source framerworks on your own?
+- [ ] [---] Which frameworks do you use frequently?
+- [ ] [---] Did you develop (open source) framerworks on your own?
 
 ### UI
 
-- [ ] [---] What might be the reason when an app hangs on user input?
-- [ ] [---] What is important when connecting the networking layer of your app to the UI regarding multi threading?
+- [x] [---] What might be the reason when an app hangs on user input? `[Too many tasks on main thread]`
+- [ ] [---] What is important when connecting the networking layer of your app to the UI in regards of multi threading?
 - [ ] [iOS] Describe your way of creating a new view contzroller. `[-IB, +InCode]`
 - [ ] [iOS] Did you ever create complex apps (>10 view controllers) without interface builder?
 
@@ -119,7 +119,7 @@
 
 - [ ] [---] How do you ensure that your app always meets certain quality criteria?
 - [ ] [---] Please describe the meaning of TDD shortly!
-- [x] [---] Please describe Continuous Integration and its purpose. Did you actually use it already? If yes in how many projects you used it for test automation?
+- [x] [---] Please describe Continuous Integration and its purpose. Did you actually use it already? If yes in how many projects and for what? `[Test Automation, App Distribution, ...]`
 - [ ] [---] Which testing frameworks do you know and how do you use them? `[Quick - BDD testing, Nimble - matcher, XCTest - Xcode native testing framework]`
 - [ ] [---] What is the Test Pyramid?
 - [ ] [iOS] What are your options about automated UI-Tests with Xcode? `[XCUITest]`
@@ -134,11 +134,11 @@
 
 - [ ] [---] Where do you store your sensitive authentication data?
 - [ ] [---] Did you work with data persistence? 
-- [ ] [---] Which data storage mechanism did you use? 
-- [ ] [---] What is the main challenges when updating the data model?
+- [ ] [---] Which data storage mechanism do you know? `[User Defaults, Key Archiving, Writing Files, Core Data]`
+- [ ] [---] What is the main challenge when updating the data model in Core Data?
 - [ ] [iOS] In how many of your projects you used Core Data?
 - [ ] [iOS] Did you created a data model on your own?
-- [ ] [iOS] What is a mapping model and what do you use it for? `[Tells CoreData how to map objects from the source model to the destination model. It is important when Core Data cannot perform a leightweight migration.]`
+- [ ] [iOS] What is a mapping model and what do you use it for? `[Tells Core Data how to map objects from the source model to the destination model. It is important when Core Data cannot perform a leightweight migration.]`
 
 ### Analysis
 
@@ -148,13 +148,12 @@
 ### Memory Management
 
 - [ ] [iOS] What is ARC and how it changed the development apps? What methods are obslete to implement?
-- [ ] [iOS] What is the AutoRealeasePool for?
-- [ ] [iOS] What is the replacement for the AutoReleasePool in iOS5 with ARC? `[@autorelease]`
+- [x] [iOS] Describe the purpose of Xcode's Memory Graph Debugger
 
 ### Programming Languages
 
 - [ ] [---] In how many projects you used `<Swift | Kotlin>`?
-- [ ] [---] Did you already migrated projects from `<Obj-C | Java>` to `<Swift | Kotlin>`? Wht was the greatest challenge?
+- [ ] [---] Did you already migrated projects from `<Obj-C | Java>` to `<Swift | Kotlin>`? What was the greatest challenge?
 - [x] [---] What's your favorite programming language and what do you like most on it?
 - [ ] [---] If you could change something in it, what would that be? What implications would this have?
 - [ ] [---] If you had to learn a new language, which one would it be, and why?
@@ -162,10 +161,14 @@
 ### Whitelabelling
 
 - [x] [---] What do you think is meant by white-labelling?
-- [x] [---] Imagine you have two customers. How to implement dedicated [wording, colors, assets, fonts, different server url's, ...]
+- [x] [---] Imagine two customers need 2 white-labelled apps. Please describe how to implement specific [wording, colors, assets, fonts, different server url's, etc.]
 
-# Links
+### Scripting
 
+- [x] [---] State some examples of what can be achieven using shell scripts
+- [x] [---] How many lines of code (approximately) in bash script did you write already?
+
+## Links 
 - [50 Interview Questions Pt 1](https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a)
 - [50 Interview Questions Pt 2](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f)
 - [50 Interview Questions Pt 3](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d)
