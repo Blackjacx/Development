@@ -68,7 +68,7 @@
 ### Prioritization
 
 - [x] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
-- [x] Imagine you get 2 big tasks assigned for the next 2 weeks. How would you structure your work to solve them?
+- [x] Imagine you get 2 big tasks assigned for the next 2 weeks. How would you structure your time to solve them?
 - [ ] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
 - [ ] Describe a situation where you felt stressed and overwhelmed in a project. How did you cope with that?
 - [ ] How do you decide how much time is needed for a user story?
