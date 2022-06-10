@@ -128,7 +128,7 @@
 ### Testing
 
 - [ ] [---] How do you ensure that your app always meets certain quality criteria?
-- [ ] [---] Please describe the meaning of TDD shortly!
+- [ ] [---] What is TDD? Please describe a situation where this has proven useful in your past carreer.
 - [x] [---] Please describe Continuous Integration and its purpose. Did you actually use it already? If yes in how many projects and for what? `[Test Automation, App Distribution, ...]`
 - [ ] [---] Which testing frameworks do you know and how do you use them? `[Quick - BDD testing, Nimble - matcher, XCTest - Xcode native testing framework]`
 - [ ] [---] What is the Test Pyramid?
