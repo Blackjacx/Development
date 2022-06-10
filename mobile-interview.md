@@ -54,7 +54,7 @@
 
 - [ ] What is necessary that you decide yourself for `<company>` instead of another one?
 - [x] Which aspects are most important for you in a job and what are no-go's?
-- [x] What is the your most interesting characteristic we don't know from your CV already?
+- [x] What is the your interesting characteristic we don't know from the CV already?
 - [ ] In which aspects your collegues assess you in a wrong way and why is that so?
 
 ### Collaboration
