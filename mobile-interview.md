@@ -30,7 +30,7 @@
 
 ### General
 
-- [x] How did you hear about the position and what do you know about `<company>` already?
+- [x] Why are you interested in `<company>` and how did you hear about us?
 - [ ] Why you want to leave your current job and home country?
 - [x] What was the biggest challenge you have faced with at work and how you coped with that?
 - [x] Today, in exactly one year, where do you see yourself?
