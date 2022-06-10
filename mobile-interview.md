@@ -101,6 +101,16 @@
 - [ ] [---] Which of your apps had the most users. How many?
 - [ ] [---] Which was the first `<Android | iOS>` version you worked with?
 
+### Whitelabelling
+
+- [x] [---] What do you think is meant by white-labelling?
+- [x] [---] Imagine two customers need 2 white-labelled apps. Please describe how to implement specific [wording, colors, assets, fonts, different server url's, etc.]
+
+### Scripting
+
+- [x] [---] State some examples of what can be achieved using shell scripts
+- [x] [---] How many lines of code (approximately) in bash script did you write already?
+
 ### Open Source
 
 - [x] [---] Which dependency managers / build systems do you know? `[Gradle, Cocoapods, Carthage, SPM]`
@@ -157,16 +167,6 @@
 - [x] [---] What's your favorite programming language and what do you like most on it?
 - [ ] [---] If you could change something in it, what would that be? What implications would this have?
 - [ ] [---] If you had to learn a new language, which one would it be, and why?
-
-### Whitelabelling
-
-- [x] [---] What do you think is meant by white-labelling?
-- [x] [---] Imagine two customers need 2 white-labelled apps. Please describe how to implement specific [wording, colors, assets, fonts, different server url's, etc.]
-
-### Scripting
-
-- [x] [---] State some examples of what can be achieven using shell scripts
-- [x] [---] How many lines of code (approximately) in bash script did you write already?
 
 ## Links 
 - [50 Interview Questions Pt 1](https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a)
