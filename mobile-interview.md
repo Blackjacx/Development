@@ -108,8 +108,8 @@
 
 ### Scripting
 
-- [x] [---] State some examples of what can be achieved using shell scripts
 - [x] [---] How many lines of code (approximately) in bash script did you write already?
+- [x] [---] State some examples of what can be achieved using shell scripts
 
 ### Open Source
 
