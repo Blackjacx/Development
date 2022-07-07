@@ -174,3 +174,7 @@
 - [50 Interview Questions Pt 3](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d)
 - [iOS Questions](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions)
 - [Linkedin Interview Guide](https://github.com/Blackjacx/Development/files/5623231/linkedin-interview-guide.pdf.zip)
+- iOS Interview Questions and Answers for Senior Developers
+    - [Part 1 - Swift](https://tanaschita.com/20190715-ios-interview-questions-and-answers-swift/)
+    - [Part 2 - Networking](https://tanaschita.com/20191001-ios-interview-questions-and-answers-networking/)
+    - There is also persistency, concurrency, design patterns and testing
