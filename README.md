@@ -11,6 +11,7 @@ All sort of public guides and information related to mobile development.
 
 1. [Coding Guidelines](ios-coding-guidelines.md)
 1. [Review Guidelines](ios-review-guidelines.md)
+1. [Glossary](ios-glossary.md)
 
 ## Links
 
