@@ -144,19 +144,22 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 
 ### Testing
 
-- [ ] [---] How do you ensure that your app always meets certain quality criteria?
+- [ ] [---] How do you ensure that your app always meets certain quality criteria? 
 - [ ] [---] What is TDD? Please describe a situation where this has proven useful in your past carreer.
 - [x] [---] Please describe Continuous Integration and its purpose. Did you actually use it already? If yes in how many projects and for what? `[Test Automation, App Distribution, ...]`
 - [ ] [---] Which testing frameworks do you know and how do you use them? `[Quick - BDD testing, Nimble - matcher, XCTest - Xcode native testing framework]`
 - [ ] [---] What is the Test Pyramid?
 - [ ] [iOS] What are your options about automated UI-Tests with Xcode? `[XCUITest]`
-- [ ] [---] Please explain “Arrange-Act-Assert”
-
+- [ ] [---] Please explain "Arrange-Act-Assert"
 > AAA is a pattern for arranging and formatting code in Unit Tests. If we were to write XCTests each of our tests would group these functional sections, separated by blank lines:
-
+>
 > - Arrange all necessary preconditions and inputs.
 > - Act on the object or method under test.
 > - Assert that the expected results have occurred.
+
+- [x] [iOS] What is the difference between setUp() and tearDown() in XCTestCase ?
+
+> We use these two methods for allocation. `setUp` method calls before test methods are executed. `tearDown` method calls after all test methods are executed for cleaning up any changes we made in data.
 
 ### Design Patterns
 
@@ -196,18 +199,22 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 > - **Asynchronous execution:** If you execute the closure asynchronously on a dispatch queue, the queue will hold onto the closure for you. You have no idea when the closure will be executed and there’s no guarantee it will complete before the function returns.
 > - **Storage:** Storing the closure to a global variable, property, or any other bit of storage that lives on past the function call means the closure has also escaped.
 
-- [ ] [iOS] Explain [weak self] and [unowned self] ?
+- [ ] [iOS] Please explain `[weak self]` and `[unowned self]`?
 
 > unowned ( non-strong reference ) does the same as weak with one exception: The variable will not become nil and must not be optional.
-
+>
 > When you try to access the variable after its instance has been deallocated. That means, you should only use unowned when you are sure, that this variable will never be accessed after the corresponding instance has been deallocated.
-
+>
 > However, if you don’t want the variable to be weak AND you are sure that it can’t be accessed after the corresponding instance has been deallocated, you can use unowned.
-
+>
 > - Every time used with non-optional types
-- Every time used with let
-
+> - Every time used with let
+>
 > By declaring it [weak self] you get to handle the case that it might be nil inside the closure at some point and therefore the variable must be an optional. A case for using [weak self] in an asynchronous network request, is in a view controller where that request is used to populate the view.
+
+- [x] [iOS] Please explain autoclosures
+
+> @autoclosure creates an automatic closure around the expression. When we write an expression, @autoclosure is automatically wrapped into a closure
 
 ### Data Persistence
 
@@ -227,9 +234,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 ### Memory Management
 
 - [x] [---] What is the difference between reference and value types?
-
 > By passing value type, the variable will create a copy of its data, and the reference type variable will just point to the original data in the memory.
-
 - [ ] [iOS] What is ARC and how it changed the development apps? What methods are obslete to implement?
 - [x] [iOS] Describe the purpose of Xcode's Memory Graph Debugger
 
