@@ -253,13 +253,10 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
     - [Part 1 - Swift](https://tanaschita.com/20190715-ios-interview-questions-and-answers-swift/)
     - [Part 2 - Networking](https://tanaschita.com/20191001-ios-interview-questions-and-answers-networking/)
     - There is also persistency, concurrency, design patterns and testing
+- [Interview Questions - Hacking With Swift](https://www.hackingwithswift.com/plus/interview-questions)
 
 ### Included
 - [50 Interview Questions Pt 1](https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a)
 - [50 Interview Questions Pt 2](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f)
 - [50 Interview Questions Pt 3](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d)
 - [Linkedin Interview Guide](https://github.com/Blackjacx/Development/files/5623231/linkedin-interview-guide.pdf.zip)
-- iOS Interview Questions and Answers for Senior Developers
-    - [Part 1 - Swift](https://tanaschita.com/20190715-ios-interview-questions-and-answers-swift/)
-    - [Part 2 - Networking](https://tanaschita.com/20191001-ios-interview-questions-and-answers-networking/)
-    - There is also persistency, concurrency, design patterns and testing
