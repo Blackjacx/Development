@@ -57,6 +57,9 @@ You don'thave to configure your own `DateFormatter` objects, use `SHDateFormatte
 #### Hiding UIStackView Subviews
 Use the `showArrangedSubview` method in the `UIView+Extensions` to show or hide arranged subviews.
 
+#### Native Type Extensions
+Before implementing extensions on any build-in types, have a look in the `Extensions` framework. We already implemented a lot and most likely it is already there. The rule is when it has no app dpeendencies it goes to the `Extensions` framework otherwise it should be part of the app.
+
 ## UIView • UIViewController Architecture
 
 These guidelines are meant to be used without Interface Builder and teach you how to work with views programmatically.
