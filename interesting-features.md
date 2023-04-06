@@ -3,10 +3,10 @@
 ## Swift
 
 ### [5.8](https://www.hackingwithswift.com/articles/256/whats-new-in-swift-5-8)
-- **Lift all limitations on variables in result builders:** [SE-0373](https://github.com/apple/swift-evolution/blob/main/proposals/0373-vars-without-limits-in-result-builders.md) relaxes some of the restrictions on variables when used inside result builders, allowing us to write code that would previously have been disallowed by the compiler.
+- **Lift all limitations on variables in result builders 🔥:** [SE-0373](https://github.com/apple/swift-evolution/blob/main/proposals/0373-vars-without-limits-in-result-builders.md) relaxes some of the restrictions on variables when used inside result builders, allowing us to write code that would previously have been disallowed by the compiler.
 - **Function back deployment:** [SE-0376](https://github.com/apple/swift-evolution/blob/main/proposals/0376-function-back-deployment.md) adds a new @backDeployed attribute that makes it possible to allow new APIs to be used on older versions of frameworks.
 - **Allow implicit self for weak self captures, after self is unwrapped:** [SE-0365](https://github.com/apple/swift-evolution/blob/main/proposals/0365-implicit-self-weak-capture.md) takes another step towards letting us remove self from closures by allowing an implicit self in places where a weak self capture has been unwrapped.
-- **Concise magic file names:** [SE-0274](https://github.com/apple/swift-evolution/blob/main/proposals/0274-magic-file.md) adjusts the #file magic identifier to use the format Module/Filename, e.g. MyApp/ContentView.swift.
+- **Concise magic file names 🔥:** [SE-0274](https://github.com/apple/swift-evolution/blob/main/proposals/0274-magic-file.md) adjusts the #file magic identifier to use the format Module/Filename, e.g. MyApp/ContentView.swift.
 - **Opening existential arguments to optional parameters:** [SE-0375](https://github.com/apple/swift-evolution/blob/main/proposals/0375-opening-existential-optional.md) extends a Swift 5.7 feature that allowed us to call generic functions using a protocol, fixing a small but annoying inconsistency: Swift 5.7 would not allow this behavior with optionals, whereas Swift 5.8 does.
 - **Collection downcasts in cast patterns are now supported:** This resolves another small but potentially annoying inconsistency in Swift where downcasting a collection – e.g. casting an array of ClassA to an array of another type that inherits from ClassA – would not be allowed in some circumstances.
 
