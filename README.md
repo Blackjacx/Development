@@ -16,7 +16,7 @@ Various guides and information related to mobile development 🧑‍💻.
 1. [Review Guidelines](ios-review-guidelines.md)
 1. [Glossary](ios-glossary.md)
 
-## Links
+## Misc
 
 1. [Bookmarks](bookmarks.md)
 1. [FAQ](faq.md)

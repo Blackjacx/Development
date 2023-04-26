@@ -1,4 +1,4 @@
-# Links
+# Bookmarks
 
 ## General
 
