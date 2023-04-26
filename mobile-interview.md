@@ -1,14 +1,14 @@
 # What we expect from you?
 
-- You worked as `<team lead | senior | junior>` for at least two years
-- You used Swift or Kotlin in at least one project for more than a year
+- You worked as `<team lead | senior | regular | junior>` for at least two years
+- You used Swift or Kotlin in multiple projects for more than two years
 - You are experienced in agile software development
 - You are able to implement complex features on your own
-- You have a pet project like your own app in the App Store or you are maintainer of an open source package
+- You are able to understand and maintain shell scripts to automate recurring tasks and feel home on the terminal
+- You have a pet project, like your own app, in the App Store or you are maintainer of an open source package
 - You know how to develop and distribute an open source package
 - You actively push your limits in `Test Driven Development` and `Continuous Integration`
-- You know how to work with [Fastlane](https://fastlane.tools/) 
-- You are familiar in using/maintaining shell scripts to automate recurring tasks
+- You know how to work with [Fastlane](https://fastlane.tools/)
 - You developed at least one app that needs data persitence using data bases like CoreData, SQLite
 
 # What We Need From You In Advance?
@@ -26,60 +26,61 @@
 
 # Questions
 
-## Get to Know Questions
+## Get to know questions
 
 ### General
 
-- [x] Why are you interested in `<company>` and how did you hear about us?
+- [ ] Why are you interested in `<company>` and how did you hear about us?
 - [ ] Why you want to leave your current job and home country?
 - [x] What was the biggest challenge you have faced with at work and how you coped with that?
 - [x] Today, in exactly one year, where do you see yourself?
 - [x] Can you please describe your role at `<company>` from your perspective?
-- [x] When I ask you manager and your best friend, how would both of them describe you?
-- [ ] Why you changed your focus from `<working_topic_I>` to `<working_topic_II>`?
-- [ ] What are your goals when working for `<company>`?
-- [ ] What is your experience in agile software development?
+- [ ] When I ask you manager and your best friend, how would both of them describe you?
+- [ ] Why you changed your focus from `<topic_I>` to `<topic_II>`?
+- [x] What would be your goals when working for `<company>`?
+- [ ] Can you describe your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
-- [x] Why we should NOT hire you?
+- [ ] Why should we NOT hire you?
+- [x] Imagine all went well. You're happy with slary and contract. What would need to happen for your to quit the job?
 
 ### Adaptability
 
-- [ ] Did you ever had to adapt to the working style of a colleague to finish a project? How did you cope with that?
+- [x] Did you ever had to adapt to the working style of a colleague to finish a project? How did you cope with that?
 - [ ] Have you ever been in a situation where you had to do something you never did before? How did you react and what did you learn?
 - [ ] Please describe a past work situation where you started to use a new technology or idea that totally diverged from your way of working so far.
-- [x] Think about a time when you received a task apart from your main responsibilities, e.g. implementing this one feature in a different language. How did you solve that problem?
+- [ ] Think about a time when you received a task apart from your main responsibilities, e.g. implementing this one feature in a different language. How did you solve that problem?
 - [ ] Please tell us about the biggest change in you career you where faced with? How did you cope with the situation?
 
-### Company / Cultural Fit
+### Company and cultural fit
 
 - [ ] What is necessary that you decide yourself for `<company>` instead of another one?
-- [x] Which aspects are most important for you in a job and what are no-go's?
+- [ ] Which aspects are most important for you in a job and what are no-go's?
 - [x] What is the your interesting characteristic we don't know from the CV already?
 - [ ] In which aspects your collegues assess you in a wrong way and why is that so?
 
 ### Collaboration
 
 - [x] Had you ever communication problems with a collegue that simply didn't understand your concern? How did you deal with this situation?
-- [ ] Describe the best colleague/boss you worked together with. What did you like most on this person?
 - [ ] Please talk about a situation where you had to work together with a complicated colleague. How did you deal with that situation?
+- [ ] Describe the best colleague/boss you worked together with. What did you like most on this person?
 - [x] Tell us about your most pleasant experience at work and your contribution to it.
 - [ ] Describe a situation where your project goals changed dramatically! How did you deal with this situation?
 
 ### Prioritization
 
 - [x] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
-- [x] Imagine you get 2 big tasks assigned for the next 2 weeks. How would you structure your time to solve them?
+- [x] Imagine you get two tasks assigned for the next two weeks, where you don't exactly know the background. How do you proceed to solve them?
 - [ ] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
 - [ ] Describe a situation where you felt stressed and overwhelmed in a project. How did you cope with that?
 - [ ] How do you decide how much time is needed for a user story?
 - [ ] Think about a project that you had to plan! How did you organize all the necessary tasks?
 - [ ] Describe a situation where you delegated an important task.
 
-### Development Potential
+### Development potential
 
 - [ ] Which is your biggest carreer goal? Why?
-- [x] When was the last time you requested feedback from your boss or a colleague? Why?
-- [ ] Did you have a situation where your lead was not available and a problem arised? How you coped with this? Whom did you ask for help?
+- [ ] When was the last time you requested feedback from your boss or a colleague? Why?
+- [x] Did you have a situation where your lead was not available and a problem arised? How you coped with this? Whom did you ask for help?
 - [ ] Did you ever deepened your knowledge in a different area than the current requirements? Please tell me about your reasons for that!
 - [ ] What is needed that you leave your current position and start something new?
 
@@ -91,9 +92,9 @@
 - [ ] What was the most difficult decision in your last six month?
 - [ ] Did you ever have to "sell" an idea to your team? How did you proceed and what was the result?
 
-## Technical Questions
+## Technical questions
 
-### General - Apps
+### General and apps
 
 - [x] [---] What was the most complex app you worked on and what was the main challenge?
 - [ ] [---] How do you improve yourself in software development? `[Conferences, Blogs, (WWDC-)Videos, Tutorials]`
@@ -124,7 +125,7 @@
 > Dynamic Dispatch is the process of selecting which implementation
 of a polymorphic operation that’s a method or a function to call at run time. This means, that when we wanna invoke our methods like object method. but Swift does not default to dynamic dispatch
 
-### Open Source
+### Open source
 
 - [x] [---] Which dependency managers / build systems do you know? `[Gradle, Cocoapods, Carthage, SPM]`
 - [ ] [---] Experience with open source frameworks?
@@ -161,7 +162,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 
 > We use these two methods for allocation. `setUp` method calls before test methods are executed. `tearDown` method calls after all test methods are executed for cleaning up any changes we made in data.
 
-### Design Patterns
+### Design patterns
 
 - [x] [---] What are design patterns, why are they important and which do you know?
 > Design patterns are reusable solutions to common problems in software design. They’re templates designed to help you write code that’s easy to understand and reuse. Most common Cocoa design patterns:
@@ -216,7 +217,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 
 > @autoclosure creates an automatic closure around the expression. When we write an expression, @autoclosure is automatically wrapped into a closure
 
-### Data Persistence
+### Data persistence
 
 - [ ] [---] Where do you store your sensitive authentication data?
 - [ ] [---] Did you work with data persistence? 
@@ -231,14 +232,14 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 - [ ] [iOS] What is instruments?
 - [ ] [iOS] State three things you can analyse with instruments!
 
-### Memory Management
+### Memory management
 
 - [x] [---] What is the difference between reference and value types?
 > By passing value type, the variable will create a copy of its data, and the reference type variable will just point to the original data in the memory.
 - [ ] [iOS] What is ARC and how it changed the development apps? What methods are obslete to implement?
 - [x] [iOS] Describe the purpose of Xcode's Memory Graph Debugger
 
-### Programming Languages
+### Programming languages
 
 - [ ] [---] In how many projects you used `<Swift | Kotlin>`?
 - [ ] [---] Did you already migrated projects from `<Obj-C | Java>` to `<Swift | Kotlin>`? What was the greatest challenge?
@@ -248,6 +249,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 
 ## Links 
 
+- [LinkedIn Alternative Interview Questions](https://business.linkedin.com/talent-solutions/resources/talent-acquisition/common-and-alternative-interview-questions)
 - [iOS Questions](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions)
 - iOS Interview Questions and Answers for Senior Developers
     - [Part 1 - Swift](https://tanaschita.com/20190715-ios-interview-questions-and-answers-swift/)
