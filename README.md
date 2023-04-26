@@ -3,7 +3,7 @@
 
 # Development
 
-All sort of public guides and information ℹ️ related to mobile development 🧑‍💻.
+Various guides and information related to mobile development 🧑‍💻.
 
 ## Mobile
 
