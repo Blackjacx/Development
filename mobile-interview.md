@@ -127,14 +127,12 @@
 ### Concurrency
 
 - [x] [---] What is the difference between Synchronous & Asynchronous task?
-
-> Synchronous: waits until the task have completed Asynchronous: completes a task in the background and can notify you when complete
+  > Synchronous: waits until the task have completed Asynchronous: completes a task in the background and can notify you when complete
 
 ### Functions
 
 - [x] [---] What is Dynamic Dispatch?
-
-> Dynamic Dispatch is the process of selecting which implementation
+  > Dynamic Dispatch is the process of selecting which implementation
 of a polymorphic operation that’s a method or a function to call at run time. This means, that when we wanna invoke our methods like object method. but Swift does not default to dynamic dispatch
 
 ### Open source
@@ -151,8 +149,7 @@ of a polymorphic operation that’s a method or a function to call at run time. 
 - [ ] [iOS] Describe your way of creating a new view contzroller. `[-IB, +InCode]`
 - [ ] [iOS] Did you ever create complex apps (>10 view controllers) without interface builder?
 - [x] [iOS] What’s the difference between the frame and the bounds?
-
-> The bounds of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to its own coordinate system (0,0).
+  > The bounds of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to its own coordinate system (0,0).
 The frame of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to the superview it is contained within.
 
 ### Testing
@@ -164,70 +161,59 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 - [ ] [---] What is the Test Pyramid?
 - [ ] [iOS] What are your options about automated UI-Tests with Xcode? `[XCUITest]`
 - [ ] [---] Please explain "Arrange-Act-Assert"
-> AAA is a pattern for arranging and formatting code in Unit Tests. If we were to write XCTests each of our tests would group these functional sections, separated by blank lines:
->
-> - Arrange all necessary preconditions and inputs.
-> - Act on the object or method under test.
-> - Assert that the expected results have occurred.
-
+  > AAA is a pattern for arranging and formatting code in Unit Tests. If we were to write XCTests each of our tests would group these functional sections, separated by blank lines:
+  >
+  > - Arrange all necessary preconditions and inputs.
+  > - Act on the object or method under test.
+  > - Assert that the expected results have occurred.
 - [x] [iOS] What is the difference between setUp() and tearDown() in XCTestCase ?
-
-> We use these two methods for allocation. `setUp` method calls before test methods are executed. `tearDown` method calls after all test methods are executed for cleaning up any changes we made in data.
+  > We use these two methods for allocation. `setUp` method calls before test methods are executed. `tearDown` method calls after all test methods are executed for cleaning up any changes we made in data.
 
 ### Design patterns
 
 - [x] [---] What are design patterns, why are they important and which do you know?
-> Design patterns are reusable solutions to common problems in software design. They’re templates designed to help you write code that’s easy to understand and reuse. Most common Cocoa design patterns:
-> 
-> - **Creational:** Singleton
-> - **Structural:** Decorator, Adapter, Facade
-> - **Behavioral:** Observer, Memento
-
+  > Design patterns are reusable solutions to common problems in software design. They’re templates designed to help you write code that’s easy to understand and reuse. Most common Cocoa design patterns:
+  > 
+  > - **Creational:** Singleton
+  > - **Structural:** Decorator, Adapter, Facade
+  > - **Behavioral:** Observer, Memento
 - [ ] [---] Describe the MVC-Pattern with the example of a download manager.
 
 ### Location
 
 - [x] [iOS] Which APIs do you know for battery-efficient location tracking?
-
-> - **Significant location changes:** The location is delivered approximately every 500 metres (usually up to 1 km)
-> - **Region monitoring:** Track enter/exit events from circular regions with a radius equal to 100m or more. Region monitoring is the most precise API after GPS.
-> - **Visit events:** Monitor place Visit events which are enters/exits from a place (home/office).
+  > - **Significant location changes:** The location is delivered approximately every 500 metres (usually up to 1 km)
+  > - **Region monitoring:** Track enter/exit events from circular regions with a radius equal to 100m or more. Region monitoring is the most precise API after GPS.
+  > - **Visit events:** Monitor place Visit events which are enters/exits from a place (home/office).
 
 ### Swift
 
 - [x] [iOS] Explain the key word `lazy`?
-
-> An initial value of the lazy stored properties is calculated only when the property is called for the first time. There are situations when the lazy properties come very handy to developers.
-
+  > An initial value of the lazy stored properties is calculated only when the property is called for the first time. There are situations when the lazy properties come very handy to developers.
 - [x] [iOS] What is the difference Non-Escaping and Escaping Closures?
-
-> The lifecycle of a non-escaping closure is simple:
->
-> - Pass a closure into a function
-> - The function runs the closure (or not)
-> - The function returns
->
-> Escaping closure means, inside the function, you can still run the closure (or not); the extra bit of the closure is stored someplace that will outlive the function. There are several ways to have a closure escape its containing function:
->
-> - **Asynchronous execution:** If you execute the closure asynchronously on a dispatch queue, the queue will hold onto the closure for you. You have no idea when the closure will be executed and there’s no guarantee it will complete before the function returns.
-> - **Storage:** Storing the closure to a global variable, property, or any other bit of storage that lives on past the function call means the closure has also escaped.
-
+  > The lifecycle of a non-escaping closure is simple:
+  >
+  > - Pass a closure into a function
+  > - The function runs the closure (or not)
+  > - The function returns
+  >
+  > Escaping closure means, inside the function, you can still run the closure (or not); the extra bit of the closure is stored someplace that will outlive the function. There are several ways to have a closure escape its containing function:
+  >
+  > - **Asynchronous execution:** If you execute the closure asynchronously on a dispatch queue, the queue will hold onto the closure for you. You have no idea when the closure will be executed and there’s no guarantee it will complete before the function returns.
+  > - **Storage:** Storing the closure to a global variable, property, or any other bit of storage that lives on past the function call means the closure has also escaped.
 - [ ] [iOS] Please explain `[weak self]` and `[unowned self]`?
-
-> unowned ( non-strong reference ) does the same as weak with one exception: The variable will not become nil and must not be optional.
->
-> When you try to access the variable after its instance has been deallocated. That means, you should only use unowned when you are sure, that this variable will never be accessed after the corresponding instance has been deallocated.
->
-> However, if you don’t want the variable to be weak AND you are sure that it can’t be accessed after the corresponding instance has been deallocated, you can use unowned.
->
-> - Every time used with non-optional types
-> - Every time used with let
->
-> By declaring it [weak self] you get to handle the case that it might be nil inside the closure at some point and therefore the variable must be an optional. A case for using [weak self] in an asynchronous network request, is in a view controller where that request is used to populate the view.
-
+  > unowned ( non-strong reference ) does the same as weak with one exception: The variable will not become nil and must not be optional.
+  >
+  > When you try to access the variable after its instance has been deallocated. That means, you should only use unowned when you are sure, that this variable will never be accessed after the corresponding instance has been deallocated.
+  >
+  > However, if you don’t want the variable to be weak AND you are sure that it can’t be accessed after the corresponding instance has been deallocated, you can use unowned.
+  >
+  > - Every time used with non-optional types
+  > - Every time used with let
+  >
+  > By declaring it [weak self] you get to handle the case that it might be nil inside the closure at some point and therefore the variable must be an optional. A case for using [weak self] in an asynchronous network request, is in a view controller where that request is used to populate the view.
 - [x] [iOS] Please explain autoclosures
-
-> @autoclosure creates an automatic closure around the expression. When we write an expression, @autoclosure is automatically wrapped into a closure
+  > @autoclosure creates an automatic closure around the expression. When we write an expression, @autoclosure is automatically wrapped into a closure
 
 ### Data persistence
 
@@ -247,7 +233,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 ### Memory management
 
 - [x] [---] What is the difference between reference and value types?
-> By passing value type, the variable will create a copy of its data, and the reference type variable will just point to the original data in the memory.
+  > By passing value type, the variable will create a copy of its data, and the reference type variable will just point to the original data in the memory.
 - [ ] [iOS] What is ARC and how it changed the development apps? What methods are obslete to implement?
 - [x] [iOS] Describe the purpose of Xcode's Memory Graph Debugger
 
