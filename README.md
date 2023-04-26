@@ -18,5 +18,5 @@ Various guides and information related to mobile development 🧑‍💻.
 
 ## Links
 
-1. [Links Collection](links.md)
+1. [Bookmarks](bookmarks.md)
 1. [FAQ](faq.md)
