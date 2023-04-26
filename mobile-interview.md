@@ -20,9 +20,9 @@
 
 - [ ] We provide information about `<company>`
 - [ ] We introduce ourselves
-- [ ] Applicant introduces himself and tells us why he applied at `<company>`
+- [ ] Applicant introduction
 - [ ] We ask questions to get to know the applicant
-- [ ] Applicant aks questions
+- [ ] Applicant can ask questions
 
 # Questions
 
