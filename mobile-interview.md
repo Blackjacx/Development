@@ -33,15 +33,20 @@
 - [ ] Why are you interested in `<company>` and how did you hear about us?
 - [ ] Why you want to leave your current job and home country?
 - [x] What was the biggest challenge you have faced with at work and how you coped with that?
-- [x] Today, in exactly one year, where do you see yourself?
-- [x] Can you please describe your role at `<company>` from your perspective?
 - [ ] When I ask you manager and your best friend, how would both of them describe you?
 - [ ] Why you changed your focus from `<topic_I>` to `<topic_II>`?
-- [x] What would be your goals when working for `<company>`?
 - [ ] Can you describe your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
 - [ ] Why should we NOT hire you?
 - [x] Imagine all went well. You're happy with slary and contract. What would need to happen for your to quit the job?
+
+### Personal goals
+
+- [x] Can you please describe your role at `<company>` from your perspective?
+- [ ] What would be your goals when working for `<company>`?
+- [x] Today, in exactly one year, where do you see yourself?
+- [x] If you were to start in the role today, where do you see yourself making an impact first?
+  > Asking this question can be particularly useful if you want to understand how realistic a candidate is about their role within your organisation and their understanding of your company’s goals. This is a good alternative to asking ‘why should we hire you?’ as it gives a candidate the chance to showcase what impact they could have in the role. A good candidate will demonstrate a desire to meet with their stakeholders to really understand their role and ask follow up questions about your key performance
 
 ### Adaptability
 
@@ -53,9 +58,11 @@
 
 ### Company and cultural fit
 
+- [x] Tell me about a project you’ve worked on outside of your professional career that you’re especially proud of?
+  > Sometimes, to get a better sense of a candidate, it’s good to start at the bottom of their CV to understand what they can bring to your team. This question allows you to see how the candidate might be a culture add to your organisation. If they highlight something that brings diversity or a different experience, it helps you to assess what they bring to the role. It can be used as an alternative to the 'tell me about your hobbies' question.
+- [ ] What is the your interesting characteristic we don't know from the CV already?
 - [ ] What is necessary that you decide yourself for `<company>` instead of another one?
 - [ ] Which aspects are most important for you in a job and what are no-go's?
-- [x] What is the your interesting characteristic we don't know from the CV already?
 - [ ] In which aspects your collegues assess you in a wrong way and why is that so?
 
 ### Collaboration
@@ -69,6 +76,7 @@
 ### Prioritization
 
 - [x] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
+  > This question allows you to get a sense of how the candidate might prioritse things and their ability to get things done. And a neutral answer such as ‘it depends’ is not necessarily unwelcome. As an alternative to ‘what’s your biggest weakness,’ this is a great way of discovering if a candidate knows the difference between work that’s ‘good enough’ but makes the deadline, and a project that is perfect but late.
 - [x] Imagine you get two tasks assigned for the next two weeks, where you don't exactly know the background. How do you proceed to solve them?
 - [ ] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
 - [ ] Describe a situation where you felt stressed and overwhelmed in a project. How did you cope with that?
@@ -83,6 +91,10 @@
 - [x] Did you have a situation where your lead was not available and a problem arised? How you coped with this? Whom did you ask for help?
 - [ ] Did you ever deepened your knowledge in a different area than the current requirements? Please tell me about your reasons for that!
 - [ ] What is needed that you leave your current position and start something new?
+- [ ] Are there any tasks in your current role you find too easy or too difficult? 
+  > This is an alternative to asking about strengths and weaknesses. Sometimes, a candidate knows what your job description requires and so will list the strengths that they think you want to hear. By phrasing the question in this way, it can allow you to uncover a candidate’s true strengths and weaknesses - usually the tasks they find too easy, can be those where their greatest strengths lie, and visa versa for weaknesses. It can also give you an indication as to why the candidate is leaving their current role, if they are finding most tasks too easy, it can be a sign they have outgrown their current position.
+- [ ] What activity do you currently perform that you find drains most of your energy?
+  > This is an alternative way of asking ‘what parts of your current role do you like the least?’. By approaching the question in this way, it allows you to understand why the candidate dislikes an aspect of their current role. For example, it could be a process issue they feel like they have no control over, or it could be simply that the candidate has outgrown that role, and is ready to progress to the next level of their career.
 
 ### Leadership
 
@@ -249,7 +261,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 
 ## Links 
 
-- [LinkedIn Alternative Interview Questions](https://business.linkedin.com/talent-solutions/resources/talent-acquisition/common-and-alternative-interview-questions)
+- [Your guide for interviewing - LinkedIn](https://business.linkedin.com/talent-solutions/resources/talent-acquisition/a-guide-to-interviewing)
 - [iOS Questions](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions)
 - iOS Interview Questions and Answers for Senior Developers
     - [Part 1 - Swift](https://tanaschita.com/20190715-ios-interview-questions-and-answers-swift/)
@@ -258,6 +270,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 - [Interview Questions - Hacking With Swift](https://www.hackingwithswift.com/plus/interview-questions)
 
 ### Included
+- [LinkedIn Alternative Interview Questions](https://business.linkedin.com/talent-solutions/resources/talent-acquisition/common-and-alternative-interview-questions)
 - [50 Interview Questions Pt 1](https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a)
 - [50 Interview Questions Pt 2](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f)
 - [50 Interview Questions Pt 3](https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d)
