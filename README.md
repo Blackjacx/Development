@@ -7,7 +7,7 @@ Various guides and information related to mobile development 🧑‍💻.
 
 ## Mobile
 
-1. [Interview Questions Mobile](mobile-interview.md)
+1. [Interview Questions](mobile-interview.md)
 1. [Interesting Features](interesting-features.md)
 
 ### iOS
