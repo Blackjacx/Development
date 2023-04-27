@@ -1,3 +1,11 @@
+# Intro
+
+This interview guide has been used in dozens of interviews for mobile iOS as well as some Android candidates. It has been improved during each one and also over time by fine tuning the questions using the resources listed at the bottom in the links section. 
+
+Before any interview I usually select a number of questions from each category that I want to ask and create a fresh markdown file in an editor from it. During the interview I can easily make notes on each question.
+
+I hope this guide helps some of you improving and preparing your next, awesome interview 👍
+
 # What we expect from you?
 
 - You worked as `<team lead | senior | regular | junior>` for at least two years
