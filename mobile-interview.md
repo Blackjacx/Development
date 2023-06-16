@@ -46,7 +46,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 - [ ] Can you describe your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
 - [ ] Why should we NOT hire you?
-- [x] Imagine all went well. You're happy with slary and contract. What would need to happen for your to quit the job?
+- [x] Imagine everything woks out well. You're happy with salary and contract. What would need to happen for your to quit the job again?
 
 ### Personal goals
 
@@ -94,7 +94,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 
 ### Development potential
 
-- [ ] Which is your biggest carreer goal? Why?
+- [ ] Which is your biggest career goal? Why?
 - [ ] When was the last time you requested feedback from your boss or a colleague? Why?
 - [x] Did you have a situation where your lead was not available and a problem arised? How you coped with this? Whom did you ask for help?
 - [ ] Did you ever deepened your knowledge in a different area than the current requirements? Please tell me about your reasons for that!
