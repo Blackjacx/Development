@@ -154,7 +154,7 @@ of a polymorphic operation that’s a method or a function to call at run time. 
 
 - [x] [---] What might be the reason when an app hangs on user input? `[Too many tasks on main thread]`
 - [ ] [---] What is important when connecting the networking layer of your app to the UI in regards of multi threading?
-- [ ] [iOS] Describe your way of creating a new view contzroller. `[-IB, +InCode]`
+- [ ] [iOS] Describe your way of creating a new view controller. `[-IB, +InCode]`
 - [ ] [iOS] Did you ever create complex apps (>10 view controllers) without interface builder?
 - [x] [iOS] What’s the difference between the frame and the bounds?
   > The bounds of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to its own coordinate system (0,0).
@@ -163,7 +163,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 ### Testing
 
 - [ ] [---] How do you ensure that your app always meets certain quality criteria? 
-- [ ] [---] What is TDD? Please describe a situation where this has proven useful in your past carreer.
+- [ ] [---] What is TDD? Please describe a situation where this has proven useful in your past career.
 - [x] [---] Please describe Continuous Integration and its purpose. Did you actually use it already? If yes in how many projects and for what? `[Test Automation, App Distribution, ...]`
 - [ ] [---] Which testing frameworks do you know and how do you use them? `[Quick - BDD testing, Nimble - matcher, XCTest - Xcode native testing framework]`
 - [ ] [---] What is the Test Pyramid?
