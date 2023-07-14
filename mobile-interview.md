@@ -185,7 +185,9 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
   > - **Creational:** Singleton
   > - **Structural:** Decorator, Adapter, Facade
   > - **Behavioral:** Observer, Memento
+- [ ] [---] Describe the MVVM-Pattern.
 - [ ] [---] Describe the MVC-Pattern with the example of a download manager.
+
 
 ### Location
 
