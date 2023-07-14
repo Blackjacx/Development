@@ -152,9 +152,9 @@ of a polymorphic operation that’s a method or a function to call at run time. 
 
 ### UI
 
-- [x] [---] What might be the reason when an app hangs on user input? `[Too many tasks on main thread]`
+- [x] [---] What might be the reason when your app begins to be unresponsive? `[Too many tasks on main thread]`
 - [ ] [---] What is important when connecting the networking layer of your app to the UI in regards of multi threading?
-- [ ] [iOS] Describe your way of creating a new view controller. `[-IB, +InCode]`
+- [ ] [iOS] What is your way of implementing a view controller from scratch? `[-IB, +InCode]`
 - [ ] [iOS] Did you ever create complex apps (>10 view controllers) without interface builder?
 - [x] [iOS] What’s the difference between the frame and the bounds?
   > The bounds of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to its own coordinate system (0,0).
