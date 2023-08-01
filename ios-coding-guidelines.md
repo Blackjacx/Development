@@ -1,5 +1,19 @@
 # iOS Coding Guidelines
 
+## Xcode Settings
+
+#### Editor
+
+Be sure to have the values below set in `Xcode` > `Settings` > `TextEditing`
+
+| Display | Editing | Indentation |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![XcodeTextEditingDisplay](https://github.com/Blackjacx/Development/assets/794372/89d47e72-e6dd-43e1-98f3-c5ded590bc89) | ![XcodeTextEditingEditing](https://github.com/Blackjacx/Development/assets/794372/7aaf932d-b77b-4f6b-a097-aade72f1dfea) | ![XcodeTextEditingIndentation](https://github.com/Blackjacx/Development/assets/794372/65f1acc3-dd1c-4c3b-8349-ba2db1748e67) |
+
+#### Spell Checking
+
+Enable spell checking under `Edit` > `Format` > `Spelling and Grammar` > `Check Spelling While Typing`
+
 ## Misc
 
 #### Avoid Code Duplications 
