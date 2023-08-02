@@ -62,7 +62,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 - [ ] Have you ever been in a situation where you had to do something you never did before? How did you react and what did you learn?
 - [ ] Please describe a past work situation where you started to use a new technology or idea that totally diverged from your way of working so far.
 - [ ] Think about a time when you received a task apart from your main responsibilities, e.g. implementing this one feature in a different language. How did you solve that problem?
-- [ ] Please tell us about the biggest change in you career you where faced with? How did you cope with the situation?
+- [ ] Please tell us about the biggest change in you career? How did you deal with the situation?
 
 ### Company and cultural fit
 
