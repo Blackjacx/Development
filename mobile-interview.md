@@ -84,7 +84,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 ### Prioritization
 
 - [x] What do you think is better? Deliver a project perfect but late or deliver it good and in time.
-  > This question allows you to get a sense of how the candidate might prioritse things and their ability to get things done. And a neutral answer such as ‘it depends’ is not necessarily unwelcome. As an alternative to ‘what’s your biggest weakness,’ this is a great way of discovering if a candidate knows the difference between work that’s ‘good enough’ but makes the deadline, and a project that is perfect but late.
+  > This question allows you to get a sense of how the candidate might prioritise things and their ability to get things done. And a neutral answer such as ‘it depends’ is not necessarily unwelcome. As an alternative to ‘what’s your biggest weakness,’ this is a great way of discovering if a candidate knows the difference between work that’s ‘good enough’ but makes the deadline, and a project that is perfect but late.
 - [x] Imagine you get two tasks assigned for the next two weeks, where you don't exactly know the background. How do you proceed to solve them?
 - [ ] Think about a time where you had to work on multiple projects in parallel. How did you plan your time? What was the result?
 - [ ] Describe a situation where you felt stressed and overwhelmed in a project. How did you cope with that?
