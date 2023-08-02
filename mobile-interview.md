@@ -75,7 +75,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 
 ### Collaboration
 
-- [x] Had you ever communication problems with a collegue that simply didn't understand your concern? How did you deal with this situation?
+- [x] Had you ever communication problems with a colleague that simply didn't understand your concern? How did you deal with this situation?
 - [ ] Please talk about a situation where you had to work together with a complicated colleague. How did you deal with that situation?
 - [ ] Describe the best colleague/boss you worked together with. What did you like most on this person?
 - [x] Tell us about your most pleasant experience at work and your contribution to it.
