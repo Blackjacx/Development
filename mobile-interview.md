@@ -71,7 +71,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 - [ ] What is the your interesting characteristic we don't know from the CV already?
 - [ ] What is necessary that you decide yourself for `<company>` instead of another one?
 - [ ] Which aspects are most important for you in a job and what are no-go's?
-- [ ] In which aspects your collegues assess you in a wrong way and why is that so?
+- [ ] In which aspects your colleagues assess you in a wrong way and why is that so?
 
 ### Collaboration
 
