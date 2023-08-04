@@ -118,8 +118,8 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 
 - [x] [---] What was the most complex app you worked on and what was the main challenge?
 - [ ] [---] How do you improve yourself in software development? `[Conferences, Blogs, (WWDC-)Videos, Tutorials]`
-- [ ] [---] Which of your apps are avalable in the store? Did you develop them on your own?
-- [ ] [---] Which of your apps had the most users. How many?
+- [ ] [---] Which of your apps are available in the store? Did you develop them on your own?
+- [ ] [---] Which of your apps have the most users. How many?
 - [ ] [---] Which was the first `<Android | iOS>` version you worked with?
 
 ### Whitelabelling
@@ -141,14 +141,14 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 
 - [x] [---] What is Dynamic Dispatch?
   > Dynamic Dispatch is the process of selecting which implementation
-of a polymorphic operation that’s a method or a function to call at run time. This means, that when we wanna invoke our methods like object method. but Swift does not default to dynamic dispatch
+of a polymorphic operation that’s a method or a function to call at run time. This means, that when we wanna invoke our methods like object method. But Swift does not default to dynamic dispatch
 
 ### Open source
 
 - [x] [---] Which dependency managers / build systems do you know? `[Gradle, Cocoapods, Carthage, SPM]`
 - [ ] [---] Experience with open source frameworks?
 - [ ] [---] Which frameworks do you use frequently?
-- [ ] [---] Did you develop (open source) framerworks on your own?
+- [ ] [---] Did you develop (open source) frameworks on your own?
 
 ### UI
 
@@ -157,8 +157,7 @@ of a polymorphic operation that’s a method or a function to call at run time. 
 - [ ] [iOS] What is your way of implementing a view controller from scratch? `[-IB, +InCode]`
 - [ ] [iOS] Did you ever create complex apps (>10 view controllers) without interface builder?
 - [x] [iOS] What’s the difference between the frame and the bounds?
-  > The bounds of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to its own coordinate system (0,0).
-The frame of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to the superview it is contained within.
+  > The bounds of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to its own coordinate system (0,0). The frame of a UIView is the rectangle, expressed as a location (x,y) and size (width, height) relative to the superview it is contained within.
 
 ### Testing
 
@@ -223,7 +222,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
   > - Every time used with let
   >
   > By declaring it [weak self] you get to handle the case that it might be nil inside the closure at some point and therefore the variable must be an optional. A case for using [weak self] in an asynchronous network request, is in a view controller where that request is used to populate the view.
-- [x] [iOS] Please explain autoclosures
+- [ ] [iOS] Please explain the key word `autoclosures`
   > @autoclosure creates an automatic closure around the expression. When we write an expression, @autoclosure is automatically wrapped into a closure
 
 ### Data persistence
@@ -245,7 +244,7 @@ The frame of a UIView is the rectangle, expressed as a location (x,y) and size (
 
 - [x] [---] What is the difference between reference and value types?
   > By passing value type, the variable will create a copy of its data, and the reference type variable will just point to the original data in the memory.
-- [ ] [iOS] What is ARC and how it changed the development apps? What methods are obslete to implement?
+- [ ] [iOS] What is ARC and how it changed the development apps? What methods are obsolete to implement?
 - [x] [iOS] Describe the purpose of Xcode's Memory Graph Debugger
 
 ### Programming languages
