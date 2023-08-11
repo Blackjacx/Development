@@ -66,7 +66,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 
 ### Company and cultural fit
 
-- [x] Tell me about a project you’ve worked on outside of your professional career that you’re especially proud of?
+- [x] Please tell us about a project you’ve worked on outside of your professional career that you’re especially proud of!
   > Sometimes, to get a better sense of a candidate, it’s good to start at the bottom of their CV to understand what they can bring to your team. This question allows you to see how the candidate might be a culture add to your organisation. If they highlight something that brings diversity or a different experience, it helps you to assess what they bring to the role. It can be used as an alternative to the 'tell me about your hobbies' question.
 - [ ] What is the your interesting characteristic we don't know from the CV already?
 - [ ] What is necessary that you decide yourself for `<company>` instead of another one?
