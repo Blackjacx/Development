@@ -19,6 +19,21 @@
 ### Tools
 - [Appstore Connect API to Register New Device](https://developer.apple.com/documentation/appstoreconnectapi/register_a_new_device)
 
+### Swift Concurrency • async / await
+
+- [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)
+- [Unit testing async/await Swift code](https://www.avanderlee.com/concurrency/unit-testing-async-await/)
+- [Detached Tasks in Swift explained with code examples](https://www.avanderlee.com/concurrency/detached-tasks/)
+- [Task Groups in Swift explained with code examples](https://www.avanderlee.com/concurrency/task-groups-in-swift/)
+- [Sendable and @Sendable closures explained with code examples](https://www.avanderlee.com/swift/sendable-protocol-closures/)
+- [AsyncSequence explained with Code Examples](https://www.avanderlee.com/concurrency/asyncsequence/)
+- [AsyncThrowingStream and AsyncStream explained with code examples](https://www.avanderlee.com/swift/asyncthrowingstream-asyncstream/)
+- [Tasks in Swift explained with code examples](https://www.avanderlee.com/concurrency/tasks/)
+- [Async await in Swift explained with code examples](https://www.avanderlee.com/swift/async-await/)
+- [Nonisolated and isolated keywords: Understanding Actor isolation](https://www.avanderlee.com/swift/nonisolated-isolated/)
+- [Async let explained: call async functions in parallel](https://www.avanderlee.com/swift/async-let-asynchronous-functions-in-parallel/)
+- [Actors in Swift: how to use and prevent data races](https://www.avanderlee.com/swift/actors/)
+
 ### Universal Links
 - [Universal Links in a Nutshell](https://github.com/dbdrive/backlog/issues/1205#issuecomment-827498953)
 - [Apple marketing page for Universal Links](https://developer.apple.com/ios/universal-links/)
