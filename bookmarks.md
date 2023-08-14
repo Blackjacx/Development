@@ -21,6 +21,28 @@
 
 ### Accessibility
 - [Accessibility Cheat Sheet](https://a11y-guidelines.orange.com/en/mobile/ios/development/)
+- [ Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/)
+- [ Developer Docs: Accessibility](https://developer.apple.com/documentation/uikit/accessibility)
+- [ Developer Docs: Supporting VoiceOver in Your App](https://developer.apple.com/documentation/uikit/accessibility/supporting_voiceover_in_your_app)
+- [WWDC 2019 "Visual Design and Accessibility"](https://github.com/Blackjacx/WWDC#visual-design-and-accessibility)
+- [WWDC 2019 "Accessibility Inspector"](https://github.com/Blackjacx/WWDC#accessibility-inspector)
+- [WWDC 2019 "Writing Great Accessibility Labels"](https://github.com/Blackjacx/WWDC#writing-great-accessibility-labels)
+- [UIKonf 2019: Inclusive and Accessible App Development](https://www.youtube.com/watch?v=M7GOoZMMrnY&feature=youtu.be)
+- [Guide that aims to present the various iOS SDK accessibility options](https://a11y-guidelines.orange.com/mobile_EN/dev-ios.html)
+- [iOS SDK accessibility options](https://a11y-guidelines.orange.com/mobile_EN/dev-ios.html#notify-a-content-change)
+- [WWDC 2017 "What's new in accessibility"](https://developer.apple.com/videos/play/wwdc2017/215/): Example of rating button
+- [Accessibility Inspector](https://youtu.be/sqGSYGHJMVM)
+- [Large Content Viewer](https://www.fivestars.blog/code/large-content-viewer.html)
+- [WWDC 2017 "Building Apps with Dynamic Type" ](https://developer.apple.com/videos/play/wwdc2017/245/)
+- [Improving Dynamic Type Support](https://pspdfkit.com/blog/2018/improving-dynamic-type-support/): nice article by the PDF kit team with survey on how much people are using the different sizes
+- [Contrast Checker Website](https://contrastchecker.com/)
+- [Ray Wenderlich - Making Custom Controls Accessible](https://www.raywenderlich.com/4720178-ios-accessibility-tutorial-making-custom-controls-accessible)
+- [🔥 How To Start With Accessibility - VoiceOver / Voice Control / Dynamic Type](https://www.basbroek.nl/getting-started-voiceover)
+- [Voice Over Navigation explained by Apple](https://www.youtube.com/watch?v=qDm7GiKra28)
+
+#### SwiftUI
+- [Series of articles regarding a11y under SwiftUI](https://medium.com/flawless-app-stories/swiftui-accessibility-e58d8850149f)
+- [A11y in SwiftUI](https://mecid.github.io/2019/09/10/accessibility-in-swiftui/)
 
 ### Swift Concurrency • async / await
 
