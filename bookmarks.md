@@ -19,6 +19,9 @@
 ### Tools
 - [Appstore Connect API to Register New Device](https://developer.apple.com/documentation/appstoreconnectapi/register_a_new_device)
 
+### Accessibility
+- [Accessibility Cheat Sheet](https://a11y-guidelines.orange.com/en/mobile/ios/development/)
+
 ### Swift Concurrency • async / await
 
 - [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)
