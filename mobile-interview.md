@@ -265,7 +265,8 @@ of a polymorphic operation that’s a method or a function to call at run time. 
     - There is also persistency, concurrency, design patterns and testing
 - [Interview Questions - Hacking With Swift](https://www.hackingwithswift.com/plus/interview-questions)
 - [Over 150 iOS interview questions](https://www.hackingwithswift.com/interview-questions)
-
+- [36 Senior iOS Developer Interview Questions](https://in.indeed.com/career-advice/interviewing/senior-ios-developer-interview-questions)
+- [25 Swift Interview Questions and Answers for 2023](https://www.devteam.space/hiring-interview-tips/swift-interview-questions-and-answers/)
 
 ### Included
 - [LinkedIn Alternative Interview Questions](https://business.linkedin.com/talent-solutions/resources/talent-acquisition/common-and-alternative-interview-questions)
