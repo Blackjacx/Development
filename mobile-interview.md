@@ -140,8 +140,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 ### Functions
 
 - [x] [---] What is Dynamic Dispatch?
-  > Dynamic Dispatch is the process of selecting which implementation
-of a polymorphic operation that’s a method or a function to call at run time. This means, that when we wanna invoke our methods like object method. But Swift does not default to dynamic dispatch
+  > Method Dispatch is the mechanism that helps to decide which operation should be executed, or more specifically, which method implementation should be used. Static Dispatch is supported by both value types and reference types while Dynamic Dispatch is only supported by reference types since we need inheritance. In general Dynamic Dispatch is the process of selecting which implementation of a polymorphic operation that’s a method or a function to call at run time.
 
 ### Open source
 
