@@ -46,6 +46,11 @@ For example when you have to declare a property in a specific unit like `timeInS
 #### Use [Camel Case](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841) for acronyms like URL or HTML
 For names like `isHtmlValid` or `isUrlComplete` this improves readability of function and variable names (though it is different than Apple does it).
 
+#### Internal types
+Place the internal types at the bottom of the class/struct definition with a `MARK: - Sub-Types` above.
+Same with protocol extensions. Put it in the class/struct definition, above the sub-types, and mark it with the protocol name e.g. `MARK: - StatePresentable`.
+The advantage of the above is that the main class definition shows all conformances of the class.
+
 ## Colors
 
 #### Use Semantic Colors
