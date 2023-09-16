@@ -46,11 +46,6 @@ For example when you have to declare a property in a specific unit like `timeInS
 #### Use [Camel Case](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841) for acronyms like URL or HTML
 For names like `isHtmlValid` or `isUrlComplete` this improves readability of function and variable names (though it is different than Apple does it).
 
-#### Internal types
-Place the internal types at the bottom of the class/struct definition with a `MARK: - Sub-Types` above.
-Same with protocol extensions. Put it in the class/struct definition, above the sub-types, and mark it with the protocol name e.g. `MARK: - StatePresentable`.
-The advantage of the above is that the main class definition shows all conformances of the class.
-
 ## Colors
 
 #### Use Semantic Colors
@@ -97,9 +92,6 @@ Sometimes we initialize VCs just to pass it around. Setting up the whole view hi
 
 ## Access Qualifier
 
-#### Respect the order of symbols
-Internal enums and structs should be defined on top of a class or struct. These are followed by the properties, ordered by there ascending privateness, so `public`, `internal`, `private`. They should be divided in static and non-static properties, so `static private` is above `public`. Properties are followed by functions with the same ordering rules.
-
 #### Declare symbols internal if you want to test them
 To be able to use symbols in tests declare them as `internal` (no prefix) instead of `private` even if they are not used outside of the containing object. If you don't need to test them and they are not required outside of the containing object declare it as `private`.
 
@@ -119,6 +111,9 @@ Comment functions and properties using `///` only if it enhances their comprehen
 
 #### No file header
 Remove comment header for newly created files since it will be always outdated (copyright, spelling errors in file names, etc.).
+
+#### Symbol Order
+Place the nested types at the bottom of the class/struct definition with a `MARK: - Sub-Types` above. Place protocol conformances above these nested types and mark them with their respective protocol name, e.g. `MARK: - StatePresentable`. All other symbols (properties, function, etc.) should be ordered by ascending privateness, so `public`, `internal`, `private`. `static` symbols are always above `non-static` ones. The advantage of moving all protocols in the main object definition is that the main class declaration shows all conformances of the class/struct as well as a clean method list (`⌃+6`). Additionally, a unified file structure results in less searching for symbols, very similar to the `func setup<view>` convention. Compare the customizable Swiftlint rule [type_contents_order](https://realm.github.io/SwiftLint/type_contents_order.html).
 
 #### Name bools with the pattern isState
 This is easy to read and matches the swifty naming conventions in the updated iOS frameworks.
