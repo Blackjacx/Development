@@ -126,6 +126,20 @@ Compare the customizable SwiftLint rule [type_contents_order](https://realm.gith
 #### Name bools with the pattern isState
 This is easy to read and matches the swifty naming conventions in modern iOS frameworks.
 
+#### Line Length
+Try to achieve a maximum line length of 80-120 characters. This has several reasons:
+- Some developers work with 2 parallel editors (2 editors, 1 editor / 1 canvas, 1 editor / 1 assistant / etc.) and maybe also the simulator side by side.
+- Horizontal scrolling is quite annoying
+- Not every developer has a 4K monitor. Be inclusive!
+- During presentations the font size has to be increased which reduces the available space in the editor
+- Many command line applictaions work with 120 or 80 columns
+
+In all of the cases above the editor's code should be fully readable **without** horizontal scrolling and there should be no need to constantly adjust the Xcode panels as this is pretty stressful.
+
+Code that looks ugly with a line-length limit of 80-120 is a great indicator that refactoring is needed.
+
+Please check out the SwiftLint rule [line_length](https://realm.github.io/SwiftLint/line_length.html).
+
 ## Xcode
 
 #### No White-Spaces In Group/Folder Names
