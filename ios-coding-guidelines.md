@@ -101,22 +101,30 @@ To be able to use symbols in tests declare them as `internal` (no prefix) instea
 So it will become easier to track down future retain cycles that are caused by missing `[weak self]` in the closure definition. Just leave out `self` if it is not necessary. Also use the `self.` syntax to initially assign constructor parameters to their respective properties if they have the same name.
 
 #### Line Breaks
-Leave a blank line underneath every function declaration, except if the body is one line long. This is not necessary in computed properties.
-
-#### Closure Style
-Use the short style of closure with two `{}` whenever possible.
+Do not leave a blank line underneath a every function declaration. This results in more compact code blocks which can be perceived as **one** block easier.
 
 #### Comments
-Comment functions and properties using `///` only if it enhances their comprehensibility. Generally comment code snippets if you deem reasonable. Sometimes design choices or complex structures are not immediately obvious to understand, in such cases comments are useful for others and your future self.
+Comment functions and properties using `///` only if it enhances their comprehensibility. Generally comment code snippets if you think it is reasonable. Sometimes design choices or complex structures are not immediately obvious to understand, in such cases comments are useful for others and your future self.
 
 #### No file header
 Remove comment header for newly created files since it will be always outdated (copyright, spelling errors in file names, etc.).
 
 #### Symbol Order
-Place the nested types at the bottom of the class/struct definition with a `MARK: - Sub-Types` above. Place protocol conformances above these nested types and mark them with their respective protocol name, e.g. `MARK: - StatePresentable`. All other symbols (properties, function, etc.) should be ordered by ascending privateness, so `public`, `internal`, `private`. `static` symbols are always above `non-static` ones. The advantage of moving all protocols in the main object definition is that the main class declaration shows all conformances of the class/struct as well as a clean method list (`⌃+6`). Additionally, a unified file structure results in less searching for symbols, very similar to the `func setup<view>()` convention. Compare the customizable SwiftLint rule [type_contents_order](https://realm.github.io/SwiftLint/type_contents_order.html).
+Place the nested types at the bottom of the class/struct definition with a `MARK: - Sub-Types` above. Place protocol conformances above these nested types and mark them with their respective protocol name, e.g. `MARK: - StatePresentable`. 
+
+All other symbols (properties, function, etc.) should be ordered by ascending privateness, so `public`, `internal`, `private`. 
+
+`static` symbols are always above `non-static` ones. 
+
+The advantages of moving all protocols in the main object definition are:
+- the main class declaration shows all conformances of the class/struct
+- clean method list (`⌃+6`)
+- a unified file structure results in less searching for symbols, very similar to the `func setup<view>()` convention
+
+Compare the customizable SwiftLint rule [type_contents_order](https://realm.github.io/SwiftLint/type_contents_order.html).
 
 #### Name bools with the pattern isState
-This is easy to read and matches the swifty naming conventions in the updated iOS frameworks.
+This is easy to read and matches the swifty naming conventions in modern iOS frameworks.
 
 ## Xcode
 
@@ -159,4 +167,6 @@ XCTUnwrap requires only 1 line instead of at least 3 for the guard. It makes tes
 ## Git
 
 #### Conflicts on a branch have to be resolved by the author
-This is super important since only the author truely knows how to integrate the changes of a branch into the development branch. The author is responsible for the PR and after making the changes ready for review there should not be changes by anybody else becasue they can lead to malfunctionality which falls back to the author in the end. Instead ask the author to do the changes. This basically happens during the review. 
+This is super important since only the author truely knows how to integrate the changes of a branch into the development branch. The author is responsible for the PR and after making the changes ready for review there should not be changes by anybody else becasue they can lead to issues which fall back to the author in the end. Instead ask the author to do the changes. If conflict resolution is especially difficult, work together with the developer who created the commit that triggers the conflict.
+
+This basically happens during the review. 
