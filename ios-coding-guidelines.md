@@ -12,7 +12,8 @@ Be sure to have the values below set in `Xcode` > `Settings` > `TextEditing`
 
 #### Spell Checking
 
-Enable spell checking under `Edit` > `Format` > `Spelling and Grammar` > `Check Spelling While Typing`
+Enable spell checking under `Edit` > `Format` > `Spelling and Grammar` > `Check Spelling While Typing`. We use en-UK 
+as default language.
 
 ## Misc
 
