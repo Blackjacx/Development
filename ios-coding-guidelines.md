@@ -26,6 +26,9 @@ Switch is an extremely useful construct in Swift since the compiler warns about 
 #### Never omit specifying the value of string-typed enum cases
 Imagine you create a string-typed enum and omit the values for every case since Swift infers the value from the case name. Now when you refactor one enum case from somewhere in your app, the inferred value also changes, which is not desired i.e. in JSON keys. You would introduce hard to find errors.
 
+#### Don't use `.none` in as enum case
+Your own implementation could easily be confused with `Optional.none` when your enum typed property is optional. To avoid this think about an alternative name for this case.
+
 #### Avoid subclasses where possible and finalize your classes
 Because super- and subclass logic becomes hard to maintain, try to split up logic into separate structs or classes instead. By marking your classes final, some optimizations are enabled which among other things speeds up compilation. Remember that since structs are not inheritable, they are final by design.
 
