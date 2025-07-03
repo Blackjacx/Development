@@ -61,6 +61,14 @@ For example when you have to declare a property in a specific unit like `timeInS
 
 For names like `isHtmlValid` or `isUrlComplete` this improves readability of function and variable names (though it is different than Apple does it). Also see [this](https://www.hackingwithswift.com/swift/3.0/lower-camel-case) aticle.
 
+## Icons
+
+### SFSymbols
+
+#### Prefer SFSymbols over custom icons
+
+Prefer using [SFSymbols](https://developer.apple.com/sf-symbols/) whenever possible. They can be tinted in any color and can be modified in various ways (shapes, outlines, animations, gradients, etc.).
+
 ## Colors
 
 #### Use Semantic Colors
@@ -182,10 +190,11 @@ Please check out the SwiftLint rule [line_length](https://realm.github.io/SwiftL
 #### Avoid `typealias` for Nested structs
 
 Typealiases have a bunch of advantages but for nested structs, this are the cons:
+
 1. When `⌘`-clicking the typealias, Xcode will take you to the alias. What you want instead is navigate to the original object.
-2. Quick-Open (`⌘ + ⇧ + o`) leads you to the typealias. You actually want the original object as suggestion. It also can happen that you end up with multiple suggestions of the same type in the quick-open dialog (one for the alias and one for the real object). 
+2. Quick-Open (`⌘ + ⇧ + o`) leads you to the typealias. You actually want the original object as suggestion. It also can happen that you end up with multiple suggestions of the same type in the quick-open dialog (one for the alias and one for the real object).
 3. When you add the same nested object under another parent struct, specifying the same aliases would be confusing. It could even lead to name-space conflicts, depending on where you declare them. In your codebase it hides the information which struct is actually meant.
-4. When you add a typealias for each nested struct, you would end up with tons of additional code on top of many files. 
+4. When you add a typealias for each nested struct, you would end up with tons of additional code on top of many files.
 
 For these reasons I advise against using typealiases for nested objetcs. If you use them because of line length issues, meanwhile there are nice formatting options in Xcode that streamline indentation (`⌃ + m` in combination with SwiftFormat works perfectly).
 
