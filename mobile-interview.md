@@ -17,7 +17,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 - You know how to develop and distribute an open source package
 - You actively push your limits in `Test Driven Development` and `Continuous Integration`
 - You know how to work with [Fastlane](https://fastlane.tools/)
-- You developed at least one app that needs data persitence using data bases like CoreData, SQLite
+- You developed at least one app that needs data persistence using data bases like CoreData, SQLite
 
 # What We Need From You In Advance?
 
@@ -46,7 +46,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 - [ ] Can you describe your experience in agile software development?
 - [ ] Describe the purpose of the SCRUM meetings daily, review and retrospective!
 - [ ] Why should we NOT hire you?
-- [x] Imagine everything woks out well. You're happy with salary and contract. What would need to happen for your to quit the job again?
+- [x] Imagine everything works out well. You're happy with salary and contract. What would need to happen for your to quit the job again?
 
 ### Personal goals
 
@@ -62,13 +62,13 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 - [ ] Have you ever been in a situation where you had to do something you never did before? How did you react and what did you learn?
 - [ ] Please describe a past work situation where you started to use a new technology or idea that totally diverged from your way of working so far.
 - [ ] Think about a time when you received a task apart from your main responsibilities, e.g. implementing this one feature in a different language. How did you solve that problem?
-- [ ] Please tell us about the biggest change in you career? How did you deal with the situation?
+- [ ] Please tell us about the biggest change in your career? How did you deal with the situation?
 
 ### Company and cultural fit
 
 - [x] Please tell us about a project you’ve worked on outside of your professional career that you’re especially proud of!
   > Sometimes, to get a better sense of a candidate, it’s good to start at the bottom of their CV to understand what they can bring to your team. This question allows you to see how the candidate might be a culture add to your organisation. If they highlight something that brings diversity or a different experience, it helps you to assess what they bring to the role. It can be used as an alternative to the 'tell me about your hobbies' question.
-- [ ] What is the your interesting characteristic we don't know from the CV already?
+- [ ] What is your interesting characteristic we don't know from the CV already?
 - [ ] What is necessary that you decide yourself for `<company>` instead of another one?
 - [ ] Which aspects are most important for you in a job and what are no-go's?
 - [ ] In which aspects your colleagues assess you in a wrong way and why is that so?
@@ -232,7 +232,7 @@ I hope this guide helps some of you improving and preparing your next, awesome i
 - [ ] [---] What is the main challenge when updating the data model in Core Data?
 - [ ] [iOS] In how many of your projects you used Core Data?
 - [ ] [iOS] Did you created a data model on your own?
-- [ ] [iOS] What is a mapping model and what do you use it for? `[Tells Core Data how to map objects from the source model to the destination model. It is important when Core Data cannot perform a leightweight migration.]`
+- [ ] [iOS] What is a mapping model and what do you use it for? `[Tells Core Data how to map objects from the source model to the destination model. It is important when Core Data cannot perform a lightweight migration.]`
 
 ### Analysis
 

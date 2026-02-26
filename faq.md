@@ -48,7 +48,7 @@ Also check the trust and expiration of your GPG key!
 
 ### Why are rolling builds turned off on Bitrise?
 
-Because it can happen that when merging a PR and directly after starting the release that the lokalization upload (the respective build on the CI) is cancelled and the apps are built with missing translations.
+Because it can happen that when merging a PR and directly after starting the release that the localization upload (the respective build on the CI) is cancelled and the apps are built with missing translations.
 
 ### How can I have custom, per-developer scheme settings
 

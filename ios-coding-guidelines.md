@@ -23,7 +23,7 @@ This way you avoid limitless growing codebase plus, more important, you avoid fi
 
 #### Don't use the default case if it's possible that the enum is extended in the future
 
-Switch is an extremely useful construct in Swift since the compiler warns about missing cases. If you use the default case you disable this behaviour and loose one of the most powerful features of Swift. It makes sense however to use the default case if you don't want case-specific behavior for every case, but only for one or some of them. In this case it doesn't break anything if new cases get added. Also if you switch over plain value types, a default case is harmless.
+Switch is an extremely useful construct in Swift since the compiler warns about missing cases. If you use the default case you disable this behaviour and lose one of the most powerful features of Swift. It makes sense however to use the default case if you don't want case-specific behavior for every case, but only for one or some of them. In this case it doesn't break anything if new cases get added. Also if you switch over plain value types, a default case is harmless.
 
 #### Never omit specifying the value of string-typed enum cases
 
@@ -43,7 +43,7 @@ When you set the thickness of lines to `1.0 / UIScreen.main.scale` then the will
 
 #### Localized-strings used in a framework F must be defined there
 
-If don't folow this rule, **F** depends on the target/module where the string is defined and thus is not modular/independent anymore. If e.g. another target/module uses a class of **F** that contains a localized string which is outside of **F** the translation could not be found.
+If don't follow this rule, **F** depends on the target/module where the string is defined and thus is not modular/independent anymore. If e.g. another target/module uses a class of **F** that contains a localized string which is outside of **F** the translation could not be found.
 
 #### Name selectors with the pattern on<action_name>
 
@@ -59,7 +59,7 @@ For example when you have to declare a property in a specific unit like `timeInS
 
 #### Use [Camel Case](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841) for acronyms like URL or HTML
 
-For names like `isHtmlValid` or `isUrlComplete` this improves readability of function and variable names (though it is different than Apple does it). Also see [this](https://www.hackingwithswift.com/swift/3.0/lower-camel-case) aticle.
+For names like `isHtmlValid` or `isUrlComplete` this improves readability of function and variable names (though it is different than Apple does it). Also see [this](https://www.hackingwithswift.com/swift/3.0/lower-camel-case) article.
 
 ## Icons
 
@@ -73,7 +73,7 @@ Prefer using [SFSymbols](https://developer.apple.com/sf-symbols/) whenever possi
 
 #### Use Semantic Colors
 
-Use semantic colors instead of `red`, `blue`, etc. Semantic colors describe in which context they are used instead of which color they actually are. Good examples are `backgroundColor`, `buttonColor`, `buttonHighlightColor`, `labelColor`, etc. Using semantic colors enables the color to automatically adapt to changing OS settiongs like dark mode or high contrast mode.
+Use semantic colors instead of `red`, `blue`, etc. Semantic colors describe in which context they are used instead of which color they actually are. Good examples are `backgroundColor`, `buttonColor`, `buttonHighlightColor`, `labelColor`, etc. Using semantic colors enables the color to automatically adapt to changing OS settings like dark mode or high contrast mode.
 
 ## Framework Extensions
 
@@ -95,7 +95,7 @@ Never define a color in code, but rather use or extend the Palette struct and th
 
 #### Date Formatter
 
-You don'thave to configure your own `DateFormatter` objects, use `SHDateFormatter` instead. If it doesn't contain a date format you need, extend it in `SHDateFormatter+Extensions`.
+You don't have to configure your own `DateFormatter` objects, use `SHDateFormatter` instead. If it doesn't contain a date format you need, extend it in `SHDateFormatter+Extensions`.
 
 #### Hiding UIStackView Subviews
 
@@ -103,7 +103,7 @@ Use the `showArrangedSubview` method in the `UIView+Extensions` to show or hide 
 
 #### Native Type Extensions
 
-Before implementing extensions on any build-in types, have a look in the `Extensions` framework. We already implemented a lot and most likely it is already there. The rule is when it has no app dpeendencies it goes to the `Extensions` framework otherwise it should be part of the app.
+Before implementing extensions on any build-in types, have a look in the `Extensions` framework. We already implemented a lot and most likely it is already there. The rule is when it has no app dependencies it goes to the `Extensions` framework otherwise it should be part of the app.
 
 ## UIView • UIViewController Architecture
 
@@ -137,7 +137,7 @@ So it will become easier to track down future retain cycles that are caused by m
 
 #### Line Breaks
 
-Do not leave a blank line underneath a every function declaration. This results in more compact code blocks which can be perceived as **one** block easier.
+Do not leave a blank line underneath every function declaration. This results in more compact code blocks which can be perceived as **one** block easier.
 
 #### Comments
 
@@ -179,7 +179,7 @@ Try to achieve a maximum line length of 80-120 characters. This has several reas
 - Horizontal scrolling is quite annoying
 - Not every developer has a 4K monitor. Be inclusive!
 - During presentations the font size has to be increased which reduces the available space in the editor
-- Many command line applictaions work with 120 or 80 columns
+- Many command line applications work with 120 or 80 columns
 
 In all of the cases above the editor's code should be fully readable **without** horizontal scrolling and there should be no need to constantly adjust the Xcode panels as this is pretty stressful.
 
@@ -196,7 +196,7 @@ Typealiases have a bunch of advantages but for nested structs, this are the cons
 3. When you add the same nested object under another parent struct, specifying the same aliases would be confusing. It could even lead to name-space conflicts, depending on where you declare them. In your codebase it hides the information which struct is actually meant.
 4. When you add a typealias for each nested struct, you would end up with tons of additional code on top of many files.
 
-For these reasons I advise against using typealiases for nested objetcs. If you use them because of line length issues, meanwhile there are nice formatting options in Xcode that streamline indentation (`⌃ + m` in combination with SwiftFormat works perfectly).
+For these reasons I advise against using typealiases for nested objects. If you use them because of line length issues, meanwhile there are nice formatting options in Xcode that streamline indentation (`⌃ + m` in combination with SwiftFormat works perfectly).
 
 ## Xcode
 
@@ -214,7 +214,7 @@ The syntax for those identifiers should be `aid.<view_controller>.<ui_element>` 
 
 #### Set the appropriate accessibility traits if not set automatically
 
-While buttons usually have it implicitly set, labels functioning as e.g. headers need need their traits set to `.header`. The same applies for search fields. In cases were a UIView serves as a button, it's trait should be set to `.button`.
+While buttons usually have it implicitly set, labels functioning as e.g. headers need their traits set to `.header`. The same applies for search fields. In cases were a UIView serves as a button, it's trait should be set to `.button`.
 
 #### Use post notifications to inform about screen/layout changes
 
@@ -234,13 +234,13 @@ Use at least 4.5:1 for fonts <18pt and 3:1 for fonts >=18pt. You can also read i
 
 #### Any view that contains text should support Dynamic Type
 
-These views should adapt to different font sizes so the UI looks good when the user scales up/down the font in the iOS settings. Support of the highest Dynamic Type setting is enough. `Larger Accessibility Sizes` are not equired for now.
+These views should adapt to different font sizes so the UI looks good when the user scales up/down the font in the iOS settings. Support of the highest Dynamic Type setting is enough. `Larger Accessibility Sizes` are not required for now.
 
 ## Testing
 
-#### Extract testing code to helper fuctions
+#### Extract testing code to helper functions
 
-Extract testing code to helper fuctions if you need to write the same testing code over and over again to test similar things. The problem here is that Xcode will report the failure in your helper function. This is easily fixable by writing your function like this: `func verify(file: StaticString = #file, line: UInt = #line) { XCTAssertEqual(1, 3, file: file, line: line) }`! The error message will jump to the call site of the extracted function.
+Extract testing code to helper functions if you need to write the same testing code over and over again to test similar things. The problem here is that Xcode will report the failure in your helper function. This is easily fixable by writing your function like this: `func verify(file: StaticString = #file, line: UInt = #line) { XCTAssertEqual(1, 3, file: file, line: line) }`! The error message will jump to the call site of the extracted function.
 
 #### Prefer `XCTUnwrap` over `guard let`
 
@@ -250,6 +250,6 @@ XCTUnwrap requires only 1 line instead of at least 3 for the guard. It makes tes
 
 #### Conflicts on a branch have to be resolved by the author
 
-This is super important since only the author truely knows how to integrate the changes of a branch into the development branch. The author is responsible for the PR and after making the changes ready for review there should not be changes by anybody else becasue they can lead to issues which fall back to the author in the end. Instead ask the author to do the changes. If conflict resolution is especially difficult, work together with the developer who created the commit that triggers the conflict.
+This is super important since only the author truly knows how to integrate the changes of a branch into the development branch. The author is responsible for the PR and after making the changes ready for review there should not be changes by anybody else because they can lead to issues which fall back to the author in the end. Instead ask the author to do the changes. If conflict resolution is especially difficult, work together with the developer who created the commit that triggers the conflict.
 
 This basically happens during the review.
