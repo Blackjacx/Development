@@ -69,6 +69,22 @@ There is an easier solution by just enabling `autoStash` in your global `~/.gitc
     autoStash = true
 ```
 
+### Branch Descriptions
+
+💡 **Did you know that you can add a description text to a branch?**
+
+With many branches and experiments laying around that comes in very helpful. Sadly the description is not synced with remote, but at least it is possible locally. Set it with:
+
+```shell
+git branch --edit-description
+```
+
+And retrieve it using:
+
+```shell
+git config branch.$(git branch --show-current).description
+```
+
 ### Supercharged git status
 
 💡 **Do you want to take your terminal's `git status` display to the next level?**
