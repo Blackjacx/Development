@@ -2,9 +2,7 @@
 
 This file covers different, advanced use cases of git with practical shell examples.
 
-## Git
-
-### Finding source of conflicts
+## Finding source of conflicts
 
 💡 **Did you ever wondered where a PR conflict comes from?**
 
@@ -24,7 +22,7 @@ git log --since="2026-02-03" --stat -- <path/to/file>
 
 Now you can simply check the content of the logged commits on GitHub which makes it WAY easier to solve the conflict. If you like the console VERY much, you can also view the changes directly there by replacing `--stat` by `-p` 👍
 
-### Git Superpowers with forgit
+## Git Superpowers with forgit
 
 💡 **Did you ever wish git commands were more interactive and faster to use?**
 
@@ -46,7 +44,7 @@ gss     # interactive git stash show
 gcp     # interactive git cherry-pick
 ```
 
-### Smart Fixup Commits with git absorb
+## Smart Fixup Commits with git absorb
 
 💡 **Do you struggle to figure out which commit a staged change belongs to when working on a PR?**
 
@@ -58,7 +56,7 @@ git absorb
 
 *Further info:* [Super-charging git rebase with git absorb](https://andrewlock.net/super-charging-git-rebase-with-git-absorb/)
 
-### Never Manually Stash Again with autoStash
+## Never Manually Stash Again with autoStash
 
 💡 **Do you still do `stash` → `rebase` → `pop` when rebasing or pulling with local changes?**
 
@@ -73,7 +71,7 @@ This is super convenient not just for rebasing but also when pulling your co-wor
 
 *Further info:* [Git tip: autostash with git pull --rebase](https://cscheng.info/2017/01/26/git-tip-autostash-with-git-pull-rebase.html)
 
-### Branch Descriptions
+## Branch Descriptions
 
 💡 **Did you know that you can add a description text to a branch?**
 
@@ -89,7 +87,7 @@ And retrieve it using:
 git config branch.$(git branch --show-current).description
 ```
 
-### Supercharged git status
+## Supercharged git status
 
 💡 **Do you want to take your terminal's `git status` display to the next level?**
 
