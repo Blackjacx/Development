@@ -46,3 +46,15 @@ gss     # interactive git stash show
 gcp     # interactive git cherry-pick
 ```
 
+### Smart Fixup Commits with git absorb
+
+💡 **Do you struggle to figure out which commit a staged change belongs to when working on a PR?**
+
+When your staged changes need to be fixed up across multiple commits, `git absorb` does the heavy lifting for you. It checks *for each hunk* of your *staged changes* which existing commit is the right candidate for a fixup and automatically creates the fixup commit.
+
+```shell
+git absorb
+```
+
+*Further info:* [Super-charging git rebase with git absorb](https://andrewlock.net/super-charging-git-rebase-with-git-absorb/)
+
