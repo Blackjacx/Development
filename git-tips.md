@@ -2,7 +2,7 @@
 
 This file covers different, advanced use cases of git with practical shell examples.
 
-## Pull Requests
+## Git
 
 ### Finding source of conflicts
 
