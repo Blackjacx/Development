@@ -24,3 +24,25 @@ git log --since="2026-02-03" --stat -- <path/to/file>
 
 Now you can simply check the content of the logged commits on GitHub which makes it WAY easier to solve the conflict. If you like the console VERY much, you can also view the changes directly there by replacing `--stat` by `-p` 👍
 
+### Git Superpowers with forgit
+
+💡 **Did you ever wish git commands were more interactive and faster to use?**
+
+[forgit](https://github.com/wfxr/forgit) gives git superpowers by creating tons of aliases for git on top of the fuzzy finder FZF. It makes browsing logs, staging files, and viewing diffs a breeze — all interactively in the terminal.
+
+```shell
+glo     # interactive git log
+ga      # interactive git add (stage files)
+gd      # interactive git diff
+gco     # interactive git checkout
+gcf     # interactive git checkout file
+gcb     # interactive git checkout branch
+gbd     # interactive git branch delete
+grh     # interactive git reset HEAD
+gi      # interactive .gitignore generator
+gfu     # interactive git fixup
+gclean  # interactive git clean
+gss     # interactive git stash show
+gcp     # interactive git cherry-pick
+```
+
