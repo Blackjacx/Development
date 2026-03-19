@@ -58,16 +58,20 @@ git absorb
 
 *Further info:* [Super-charging git rebase with git absorb](https://andrewlock.net/super-charging-git-rebase-with-git-absorb/)
 
-### Rebase with Local Changes via autoStash
+### Never Manually Stash Again with autoStash
 
-💡 **Do you still do `stash` → `rebase` → `pop` when rebasing with local changes?**
+💡 **Do you still do `stash` → `rebase` → `pop` when rebasing or pulling with local changes?**
 
-There is an easier solution by just enabling `autoStash` in your global `~/.gitconfig` file. Git will then automatically stash your local changes before the rebase and restore them afterwards.
+Enable `autoStash` in your global `~/.gitconfig` and never think about it again. When performing a rebase or a pull it automatically stashes your local changes and reapplies the stash afterwards.
+
+This is super convenient not just for rebasing but also when pulling your co-workers' changes while you have uncommitted work in progress.
 
 ```gitconfig
 [rebase]
     autoStash = true
 ```
+
+*Further info:* [Git tip: autostash with git pull --rebase](https://cscheng.info/2017/01/26/git-tip-autostash-with-git-pull-rebase.html)
 
 ### Branch Descriptions
 
