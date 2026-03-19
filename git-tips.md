@@ -69,3 +69,19 @@ There is an easier solution by just enabling `autoStash` in your global `~/.gitc
     autoStash = true
 ```
 
+### Supercharged git status
+
+💡 **Do you want to take your terminal's `git status` display to the next level?**
+
+Create an alias in your `~/.zshrc` like so:
+
+```shell
+alias gst="git status -sb"
+```
+
+The difference is plain great simplicity 🤩
+
+`git status -sb` | `git status`
+--- | ---
+![git status -sb](assets/git-status-sb.png) | ![git status](assets/git-status-default.png)
+
