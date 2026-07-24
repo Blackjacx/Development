@@ -2,6 +2,48 @@
 
 ## Swift
 
+### [6.3](https://www.swift.org/blog/swift-6.3-released/)
+
+- **`@c` attribute:** [SE-0495](https://github.com/apple/swift-evolution/blob/main/proposals/0495-cdecl.md) exposes Swift functions and enums to C, generating the matching C header declarations, with optional custom naming.
+- **Module selectors:** [SE-0491](https://github.com/apple/swift-evolution/blob/main/proposals/0491-module-selectors.md) adds `ModuleName::member` syntax to disambiguate APIs that share the same name across different imported modules.
+- **Explicit specialization:** [SE-0460](https://github.com/apple/swift-evolution/blob/main/proposals/0460-specialized.md) adds the `@specialized` attribute to pre-generate specialized versions of a generic function for chosen concrete types.
+- **`@inline(always)`:** [SE-0496](https://github.com/apple/swift-evolution/blob/main/proposals/0496-inline-always.md) promotes the long-standing underscored attribute to an official `@inline(always)` that guarantees a function is inlined.
+- **Controlling definition visibility:** [SE-0497](https://github.com/apple/swift-evolution/blob/main/proposals/0497-definition-visibility.md) lets ABI-stable libraries control whether a function's body is visible to clients, e.g. `@export(implementation)`.
+- **Swift Testing – issue severity:** [ST-0013](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0013-issue-severity-warning.md) lets a test record warning-level issues via a `severity` parameter without failing the test.
+- **Swift Testing – test cancellation:** [ST-0016](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0016-test-cancellation.md) adds `try Test.cancel()` to stop a running test early.
+- **Official Android SDK:** no numbered proposal – see the [Swift 6.3 release notes](https://www.swift.org/blog/swift-6.3-released/) – ships the first official Swift SDK for Android, with Swift/Java interop.
+
+### [6.2](https://www.hackingwithswift.com/articles/277/whats-new-in-swift-6-2)
+
+- **Approachable Concurrency 🔥:** A cluster of proposals that make concurrency far easier to adopt:
+      - [SE-0466](https://github.com/apple/swift-evolution/blob/main/proposals/0466-control-default-actor-isolation.md) lets a module default to `@MainActor` isolation, so code runs on the main thread without explicit annotations.
+      - [SE-0478](https://github.com/apple/swift-evolution/blob/main/proposals/0478-default-isolation-typealias.md) adds a typealias mechanism to configure that default per module.
+      - [SE-0461](https://github.com/apple/swift-evolution/blob/main/proposals/0461-async-function-isolation.md) makes `nonisolated` async functions run in the caller's execution context, and adds the `@concurrent` attribute (plus `nonisolated(nonsending)`) to opt back into running off the actor.
+- **weak let:** [SE-0481](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0481-weak-let.md) introduces the ability to use `weak let` when declaring properties of a type, complementing the existing support for `weak var`.
+- **InlineArray:** [SE-0453](https://github.com/apple/swift-evolution/blob/main/proposals/0453-vector.md) introduces a fixed-size, stack-allocated array, with [SE-0483](https://github.com/apple/swift-evolution/blob/main/proposals/0483-inline-array-sugar.md) adding the `[N of Type]` shorthand (e.g. `[40 of Sprite]`).
+- **Opt-in strict memory safety:** [SE-0458](https://github.com/apple/swift-evolution/blob/main/proposals/0458-strict-memory-safety.md) adds an opt-in mode that flags uses of unsafe constructs, for projects with the strongest security requirements.
+- **Transactional observation:** [SE-0475](https://github.com/apple/swift-evolution/blob/main/proposals/0475-observed.md) adds an `Observations` async sequence that streams transactional changes to observable state.
+- **Raw identifiers:** [SE-0451](https://github.com/apple/swift-evolution/blob/main/proposals/0451-escaped-identifiers.md) allows backtick-escaped identifiers containing spaces and symbols, handy for descriptive test names.
+- **Subprocess:** [swift-foundation SF-0007](https://github.com/apple/swift-foundation/blob/main/Proposals/0007-swift-subprocess.md) (a Foundation proposal, not Swift Evolution) adds a modern async/await API for launching and managing external processes.
+- **Concurrency-safe Notifications:** [swift-foundation SF-0011](https://github.com/apple/swift-foundation/blob/main/Proposals/0011-concurrency-safe-notifications.md) (a Foundation proposal, not Swift Evolution) modernizes `NotificationCenter` with concrete `MainActorMessage`/`AsyncMessage` types instead of strings and `userInfo` dictionaries.
+- **Swift Testing – exit tests:** [ST-0008](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0008-exit-tests.md) verifies that code terminates as expected by running it in a separate process.
+- **Swift Testing – attachments:** [ST-0009](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0009-attachments.md) attaches strings, images, logs, and other artifacts to test results.
+- **WebAssembly support:** no numbered proposal – see the [WebAssembly vision document](https://github.com/apple/swift-evolution/blob/main/visions/webassembly.md) – Swift can now build and deploy client and server apps to Wasm runtimes and browsers.
+
+### [6.1](https://www.hackingwithswift.com/articles/276/whats-new-in-swift-6-1)
+
+- **Trailing commas in comma-separated lists 🔥:** [SE-0439](https://github.com/apple/swift-evolution/blob/main/proposals/0439-trailing-comma-lists.md) allows a trailing comma in almost all comma-separated lists (function calls and declarations, generics, tuples, and more), not just arrays and dictionaries.
+- **Metatype keypaths:** [SE-0438](https://github.com/apple/swift-evolution/blob/main/proposals/0438-metatype-keypath.md) lets key paths reference a type's metatype, e.g. reading `\.self` and other metatype members through a `KeyPath`.
+- **Objective-C implementations in Swift:** [SE-0436](https://github.com/apple/swift-evolution/blob/main/proposals/0436-objc-implementation.md) stabilizes the `@objc @implementation` attribute, letting you implement an Objective-C class's interface in Swift.
+- **`nonisolated` for global-actor inference cutoff:** [SE-0449](https://github.com/apple/swift-evolution/blob/main/proposals/0449-nonisolated-for-global-actor-cutoff.md) extends `nonisolated` to types, extensions, and protocols so they can opt out of inferred global-actor isolation.
+- **Inferred `TaskGroup` result type:** [SE-0442](https://github.com/apple/swift-evolution/blob/main/proposals/0442-allow-taskgroup-childtaskresult-type-to-be-inferred.md) lets the compiler infer a task group's `ChildTaskResult` type, so you no longer have to spell it out when creating the group.
+- **Task naming:** [SE-0469](https://github.com/apple/swift-evolution/blob/main/proposals/0469-task-names.md) allows assigning a human-readable name to a `Task`, which surfaces in debugging and instrumentation.
+- **Precise warning control flags:** [SE-0443](https://github.com/apple/swift-evolution/blob/main/proposals/0443-warning-control-flags.md) adds compiler flags to treat individual diagnostic groups as errors or warnings (`-Werror`/`-Wwarning`).
+- **Package traits:** [SE-0450](https://github.com/apple/swift-evolution/blob/main/proposals/0450-swiftpm-package-traits.md) adds SwiftPM package traits for conditionally enabling features and dependencies per consumer.
+- **Swift Testing – return errors from `expect(throws:)`:** [ST-0006](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0006-return-errors-from-expect-throws.md) returns the thrown error from `#expect(throws:)` so you can make further assertions on it.
+- **Swift Testing – test scoping traits:** [ST-0007](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0007-test-scoping-traits.md) lets custom traits run code around each test they're applied to (setup/teardown-style scoping).
+- **Background indexing by default:** no numbered proposal – a SourceKit-LSP tooling default (see the [Swift 6.1 release notes](https://www.swift.org/blog/swift-6.1-released/)) that enables background indexing for SwiftPM projects.
+
 ### [6.0](https://www.hackingwithswift.com/articles/269/whats-new-in-swift-6)
 
 - **Complete concurrency enabled by default:** The biggest, [SE-0414](https://github.com/apple/swift-evolution/blob/main/proposals/0414-region-based-isolation.md), defines isolation regions that allow the compiler to conclusively prove different parts of your code can run concurrently. Some other additions:
@@ -21,8 +63,8 @@
 - **Swift Backtrace API:** [SE-0419](https://github.com/apple/swift-evolution/blob/main/proposals/0419-backtrace-api.md)
 
 ### [5.9](https://www.hackingwithswift.com/articles/258/whats-new-in-swift-5-9)
+- **Macros 🔥:** [SE-0382](https://github.com/apple/swift-evolution/blob/main/proposals/0382-expression-macros.md), [SE-0389](https://github.com/apple/swift-evolution/blob/main/proposals/0389-attached-macros.md), and [SE-0397](https://github.com/apple/swift-evolution/blob/main/proposals/0397-freestanding-declaration-macros.md) combine to add macros to Swift, which allow us to create code that transforms syntax at compile time.
 - **if and switch expressions:** [SE-0380](https://github.com/apple/swift-evolution/blob/main/proposals/0380-if-switch-expressions.md) adds the ability for us to use if and switch as expressions in several situations. This produces syntax that will be a little surprising at first, but overall it does help reduce a little extra syntax in the language.
-- **Macros  🔥:** [SE-0382](https://github.com/apple/swift-evolution/blob/main/proposals/0382-expression-macros.md), [SE-0389](https://github.com/apple/swift-evolution/blob/main/proposals/0389-attached-macros.md), and [SE-0397](https://github.com/apple/swift-evolution/blob/main/proposals/0397-freestanding-declaration-macros.md) combine to add macros to Swift, which allow us to create code that transforms syntax at compile time.
 - **Noncopyable structs and enums:** [SE-0390](https://github.com/apple/swift-evolution/blob/main/proposals/0390-noncopyable-structs-and-enums.md) introduces the concept of structs and enums that cannot be copied, which in turn allows a single instance of a struct or enum to be shared in many places – they still ultimately have one owner, but can now be accessed in various parts of your code.
 - **consume operator to end the lifetime of a variable binding:** [SE-0366](https://github.com/apple/swift-evolution/blob/main/proposals/0366-move-function.md) extends the concept of consuming values to local variables and constants of copyable types, which might benefit developers who want to avoid excess retain/release calls happening behind the scenes as their data is passed around.
 - **Convenience Async[Throwing]Stream.makeStream methods:** [SE-0388](https://github.com/apple/swift-evolution/blob/main/proposals/0388-async-stream-factory.md) adds a new makeStream() method to both AsyncStream and AsyncThrowingStream that sends back both the stream itself alongside its continuation.
