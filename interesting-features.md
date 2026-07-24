@@ -27,8 +27,9 @@
 - **Raw identifiers:** [SE-0451](https://github.com/apple/swift-evolution/blob/main/proposals/0451-escaped-identifiers.md) allows backtick-escaped identifiers containing spaces and symbols, handy for descriptive test names.
 - **Subprocess:** [swift-foundation SF-0007](https://github.com/apple/swift-foundation/blob/main/Proposals/0007-swift-subprocess.md) (a Foundation proposal, not Swift Evolution) adds a modern async/await API for launching and managing external processes.
 - **Concurrency-safe Notifications:** [swift-foundation SF-0011](https://github.com/apple/swift-foundation/blob/main/Proposals/0011-concurrency-safe-notifications.md) (a Foundation proposal, not Swift Evolution) modernizes `NotificationCenter` with concrete `MainActorMessage`/`AsyncMessage` types instead of strings and `userInfo` dictionaries.
-- **Swift Testing – exit tests:** [ST-0008](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0008-exit-tests.md) verifies that code terminates as expected by running it in a separate process.
-- **Swift Testing – attachments:** [ST-0009](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0009-attachments.md) attaches strings, images, logs, and other artifacts to test results.
+- **Swift Testing**
+  - **Exit Tests:** [ST-0008](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0008-exit-tests.md) verifies that code terminates as expected by running it in a separate process.
+  - **Attachments:** [ST-0009](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0009-attachments.md) attaches strings, images, logs, and other artifacts to test results.
 - **WebAssembly support:** no numbered proposal – see the [WebAssembly vision document](https://github.com/apple/swift-evolution/blob/main/visions/webassembly.md) – Swift can now build and deploy client and server apps to Wasm runtimes and browsers.
 
 ### [6.1](https://www.hackingwithswift.com/articles/276/whats-new-in-swift-6-1)
