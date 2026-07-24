@@ -42,8 +42,9 @@
 - **Task naming:** [SE-0469](https://github.com/apple/swift-evolution/blob/main/proposals/0469-task-names.md) allows assigning a human-readable name to a `Task`, which surfaces in debugging and instrumentation.
 - **Precise warning control flags:** [SE-0443](https://github.com/apple/swift-evolution/blob/main/proposals/0443-warning-control-flags.md) adds compiler flags to treat individual diagnostic groups as errors or warnings (`-Werror`/`-Wwarning`).
 - **Package traits:** [SE-0450](https://github.com/apple/swift-evolution/blob/main/proposals/0450-swiftpm-package-traits.md) adds SwiftPM package traits for conditionally enabling features and dependencies per consumer.
-- **Swift Testing – return errors from `expect(throws:)`:** [ST-0006](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0006-return-errors-from-expect-throws.md) returns the thrown error from `#expect(throws:)` so you can make further assertions on it.
-- **Swift Testing – test scoping traits:** [ST-0007](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0007-test-scoping-traits.md) lets custom traits run code around each test they're applied to (setup/teardown-style scoping).
+- **Swift Testing**
+  - **Return errors from `expect(throws:)`:** [ST-0006](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0006-return-errors-from-expect-throws.md) returns the thrown error from `#expect(throws:)` so you can make further assertions on it.
+  - **Test scoping traits:** [ST-0007](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0007-test-scoping-traits.md) lets custom traits run code around each test they're applied to (setup/teardown-style scoping).
 - **Background indexing by default:** no numbered proposal – a SourceKit-LSP tooling default (see the [Swift 6.1 release notes](https://www.swift.org/blog/swift-6.1-released/)) that enables background indexing for SwiftPM projects.
 
 ### [6.0](https://www.hackingwithswift.com/articles/269/whats-new-in-swift-6)
