@@ -9,8 +9,9 @@
 - **Explicit specialization:** [SE-0460](https://github.com/apple/swift-evolution/blob/main/proposals/0460-specialized.md) adds the `@specialized` attribute to pre-generate specialized versions of a generic function for chosen concrete types.
 - **`@inline(always)`:** [SE-0496](https://github.com/apple/swift-evolution/blob/main/proposals/0496-inline-always.md) promotes the long-standing underscored attribute to an official `@inline(always)` that guarantees a function is inlined.
 - **Controlling definition visibility:** [SE-0497](https://github.com/apple/swift-evolution/blob/main/proposals/0497-definition-visibility.md) lets ABI-stable libraries control whether a function's body is visible to clients, e.g. `@export(implementation)`.
-- **Swift Testing – issue severity:** [ST-0013](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0013-issue-severity-warning.md) lets a test record warning-level issues via a `severity` parameter without failing the test.
-- **Swift Testing – test cancellation:** [ST-0016](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0016-test-cancellation.md) adds `try Test.cancel()` to stop a running test early.
+- **Swift Testing**
+  - **Issue Severity:** [ST-0013](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0013-issue-severity-warning.md) lets a test record warning-level issues via a `severity` parameter without failing the test.
+  - **Test Cancellation:** [ST-0016](https://github.com/apple/swift-evolution/blob/main/proposals/testing/0016-test-cancellation.md) adds `try Test.cancel()` to stop a running test early.
 - **Official Android SDK:** no numbered proposal – see the [Swift 6.3 release notes](https://www.swift.org/blog/swift-6.3-released/) – ships the first official Swift SDK for Android, with Swift/Java interop.
 
 ### [6.2](https://www.hackingwithswift.com/articles/277/whats-new-in-swift-6-2)
